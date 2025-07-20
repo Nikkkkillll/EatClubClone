@@ -1,17 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EatClub - Food delivery | Order food online in Mumbai, Delhi NCR, Bangalore, Hyderabad, Pune, Chennai & Kolkata</title>
+    <title>EatClub - Food delivery | Order food online in Mumbai, Delhi NCR, Bangalore, Hyderabad, Pune, Chennai &
+        Kolkata</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
+    <!-- Navbar -->
     <header class="header">
         <nav class="navbar">
+            <div class="nav-left">
+                <div class="eatclub-logo">
+                    <img src="https://d203x0tuwp1vfo.cloudfront.net/20250718101024/assets/images/logo.png" alt="">
+                </div>
+                <div class="search-bar">
+                    <span><b>DELIVERY</b></span>
+                    <span class="search-cont">Showing Default Location</span>
+                    <i class="fa-solid fa-angle-down"></i>
 
+                </div>
+            </div>
+            <div class="navbar-right">
+                <a href="#" class="nav-link">Why EatClub?</a>
+                <div class="nav-link dropdown">
+                    <span><img class="offer-logo" src="https://cdn-icons-png.flaticon.com/512/2956/2956869.png"
+                            alt="offer icon">Deals&nbsp;<i class="fa-solid fa-angle-down"></i></span>
+
+                </div>
+                <a href="#" class="nav-link"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+                <a href="#" class="btn-outline">Get the app</a>
+                <a href="#" class="btn"><span>Sign in</span></a>
+            </div>
         </nav>
     </header>
-    
+    <main>
+        <div class="banner">
+            <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2516" alt="">
+        </div>
+        <!-- Offer Container -->
+        <div class="food-container">
+            <div class="offers-container">
+                <h2>Top offers today</h2>
+                <div class="offers">
+                    <div class="offer-card">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2396" alt="">
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2390" alt="">
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2483" alt="">
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2397" alt="">
+                    </div>
+                    <div class="offer-card">
+                        <img src="	https://assets.box8.co.in/horizontal-rectangle/web/banner/2400" alt="">
+                    </div>
+                    <div class="offer-card">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2401" alt="">
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- what on your mind container -->
+            <div class="whatonmind">
+                <h2>What’s on your mind?</h2>
+                <div class="category-scroll">
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2504" alt="Pizza">
+                        <p><span class="category-name">Pizza</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2503" alt="Briyani">
+                        <p><span class="category-name">Briyani</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2506" alt="Meal">
+                        <p><span class="category-name">Daily Meal</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2500" alt="Bowl">
+                        <p><span class="category-name">Bowl</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2505" alt="Thali">
+                        <p><span class="category-name">Thali</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2498" alt="Thincurst">
+                        <p><span class="category-name">ThinCurst</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2501" alt="Rolls">
+                        <p><span class="category-name">Rolls</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="	https://assets.box8.co.in/horizontal-rectangle/web/banner/2507" alt="LigthMeal">
+                        <p><span class="category-name">Ligth Meal</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="	https://assets.box8.co.in/horizontal-rectangle/web/banner/2502" alt="High Protein">
+                        <p><span class="category-name">High Protein</span></p>
+                    </div>
+                    <div class="category">
+                        <img src="	https://assets.box8.co.in/horizontal-rectangle/web/banner/2508" alt="Sandwich">
+                        <p><span class="category-name">Sandwich</span></p>
+                    </div>
+                </div>
+                <hr>
+            </div>
+        </div>
+        <div class="food-container2">
+            <div class="heading-restrurant">
+                <Strong>Restaurants</Strong>
+            </div>
+            <!-- coontainer with first three container -->
+            <div class="restaurants-container">
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/20_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">LeanCrust Pizza</p>
+                        <p class="membership-tagline">The Thin Crust Experts</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/1" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">BOX8 - Desi Meals</p>
+                        <p class="membership-tagline">India’s Largest Desi Meals Brand</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/31_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">Daily Kitchen- Homely Meals</p>
+                        <p class="membership-tagline">Mom-Style Homely Meals That You Can Have Daily</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- coontainer with 2nd three container-->
+            <div class="restaurants-container">
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/37_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">The Ghee Khichdi Project</p>
+                        <p class="membership-tagline">Comforting, Wholesome & Made with 100% Pure Ghee</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/22_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">ZAZA Mughal Biryani</p>
+                        <p class="membership-tagline">India's Most Flavourful Biryani</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/13" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">MOJO Pizza- 2X Toppings</p>
+                        <p class="membership-tagline">India’s Highest Rated Pizza Delivery Chain</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- coontainer with 3rd three container-->
+            <div class="restaurants-container">
+                <div class="membership-cart">
+                    <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/16_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">NH1 Bowls</p>
+                        <p class="membership-tagline">Highway to North! Real North-Indian Taste.</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/15_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">Mealful Rolls</p>
+                        <p class="membership-tagline">India's Biggest Rolls</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/26_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">BOOM Sandwich</p>
+                        <p class="membership-tagline">Sub Style Sandwiches, Freshly Made</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- coontainer with 4th three container -->
+            <div class="restaurants-container">
+                <div class="membership-cart">
+                    <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/25_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">WeFit - Protein Meals</p>
+                        <p class="membership-tagline">Upto 74 gm Protein in Bowls, Salads & Sandwiches</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/27_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">Hola Pasta</p>
+                        <p class="membership-tagline">Fresh Gourmet Pasta.</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="membership-cart">
+                    <img src="https://assets.box8.co.in/rectangle-19x10/web/brand/14_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">Itminaan Matka Biryani</p>
+                        <p class="membership-tagline">Slow Cooked & Served in an Earthen Matka</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- coontainer with 5th three container-->
+            <div class="restaurants-container">
+                <div class="membership-cart">
+                    <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/24_disabled" alt="">
+                    <div class="membership-containt">
+                        <p class="membership-name">Bhatti Chicken</p>
+                        <p class="membership-tagline">Grilled in a Bhatti, Not Fried</p>
+                        <hr>
+                        <div class="offer-contain">
+                            <img src="	https://eatclub.in/assets/images/offers_teal.svg" alt=""><span
+                                class="offer-contain-tagline">30% Off + ZERO Extra Fees</span>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <!-- Footer ke upar ka banner -->
+    <div class="bannerabovefooter">
+        <img src="	https://eatclub.in/assets/images/eatclub-download-banner.webp" alt="">
+    </div>
+
+    <footer class="footer-dark">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h2>EatClub</h2>
+                <p>
+                    Getting food delivered at home is always a great<br>
+                    idea. But the whole episode of scrolling endlessly,<br>
+                    scanning restaurant ratings, hunting for coupon<br>
+                    codes... now that’s not fun at all. So, here’s the<br>
+                    smarter way out with EatClub!
+                </p>
+                <p>
+                    A membership program that takes you straight to a<br>
+                    no-nonsense, curated selection of restaurants. Get <br>
+                    unlimited savings with 30% OFF every time on all <br>
+                    restaurants and NO extra charges on delivery, <br>
+                    packaging or surge.
+                </p>
+                <p>One membership, many benefits!</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>COMPANY</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>GET HELP</h4>
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Help & Support</a></li>
+                    <li><a href="#">Delivery Policies</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                    <li><a href="#">Disclaimers</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>EXPLORE</h4>
+                <ul>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Bulk Order</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Copyright 2020 - 2025. EatClub Brands Pvt. Ltd. All rights reserved. <span
+                    class="version">v11.4.1-1</span></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
 </body>
+
 </html>

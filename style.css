@@ -4,12 +4,384 @@
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+/* Navbar-Css */
 .header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
     padding: 18px 60px;
+    background-color: #ffffff;
+    /*background-color: rgba(255, 255, 255, 0.95); Optional: translucent background*/
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: subtle shadow */
 }
 .navbar{
-    background-color: antiquewhite;
-    height: 50px;
-    width: 1400px;
+    height: 44px;
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
 }
+
+.nav-left{
+    background-color: #fff;
+    height: 44px;
+    width: 100%;
+    max-width:495px;
+    display: flex;
+    align-items: center;
+    
+}
+.eatclub-logo{
+    height: 40px;
+    width: 100%;
+    max-width: 115px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eatclub-logo>img{
+    height: 57px;
+    width: 100%;
+    max-width: 95px;
+}
+.search-bar{
+    height: 27px;
+    padding: 4px 16px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar>span{
+font-size: 14px;
+
+}
+.search-cont{
+    padding: 0px 90px 0px 10px;
+}
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: #fff;
+}
+.nav-link {
+  color:black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px 12px;
+}
+.offer-logo{
+height: 24px;
+width: 100%;
+max-width: 24px;
+margin-right: 5px;
+
+}
+
+.dropdown>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-link>i{
+    margin-right:10px ;
+}
+
+.btn-outline {
+  border: 1px solid #00c6b3;
+  color: #00c6b3;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.btn {
+  background-color: #00c6b3;
+  color: black;
+  padding:4px 8px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0px 10px ;
+  
+}
+.btn>span{
+  margin: 0px 8px;
+  font-size: 14px;
+  color: white;
+}
+.banner>img{
+height: 450px;
+width: 100%;
+max-width:1520px;
+}
+
+.food-container{
+  height: 636px;
+  width: 100%;
+  max-width:1300px;
+  margin:0px 118px;
+  padding:0px 15px;
+  background-color: #fff;
+}
+
+.offers-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.offers {
+  padding: 0px 0px  50px 0px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.offers-card{
+  height: 171px;
+  width: 100%;
+  max-width: 140px;
+}
+.offer-card img { 
+  object-fit: contain;
+}
+/* <!-- what on your mind container --> */
+.whatonmind h2{
+  font-size: 22px;
+  margin-bottom:30px ;
+  padding-top: 50px;
+}
+.category-scroll{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.category{
+  height: 100px;
+  width: 100%;
+  max-width: 100px;
+}
+.category img{
+  height: 75px;
+  width: 100%;
+  max-width:100px ;
+}
+.category-name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #707786;
+  font-size: 14px;
+  font-weight:500 ;
+}
+/* restrurant section */
+.food-container2{
+  height: 1900px;
+  width: 100%;
+  max-width:1300px;
+  margin:0px 118px;
+  padding:0px 15px;
+  background-color: #fff;
+
+}
+
+.heading-restrurant{
+  font-size: 22px;
+  
+}
+.restaurants-container{
+  height: 350px;
+  width: 100%;
+  max-width: 1270px;
+  padding: 24px 14px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.membership-cart{
+  height: 304px;
+width: 100%;
+  max-width: 394px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.membership-cart img{
+  height: 207px;
+  width: 100%;
+  max-width: 394px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.membership-containt{
+  width: 100%;
+  max-width: 390px;
+  height: 55px;
+  padding: 0px 12px 10px 12px;
+  margin-top: 5px;
+}
+
+.membership-name{
+  width: 100%;
+  max-width: 370px;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom:5px ;
+}
+.membership-tagline{
+    color: #707786;
+    font-size: 12px;
+    font-weight: 600;
+    width: 100%;
+  max-width: 370px;
+}
+.membership-containt hr{
+  margin-top: 10px;
+   margin-bottom: 6px;
+}
+.offer-contain{
+  height: 26px;
+  width: 100%;
+  max-width: 294px;
+  display: flex;
+
+  align-items: center;
+}
+.membership-containt img{
+  height: 14px;
+  width: 100%;
+  max-width: 14px;
+}
+.offer-contain-tagline{
+    color: #606060;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .24px;
+    padding: 10px 12px 12px 5px;
+}
+/* Footer ke upar ka banner */
+.bannerabovefooter{
+height: 254px;
+}
+.bannerabovefooter img{
+   width: 100%;
+   max-width: 1520px;
+   height: 254px;
+  
+}
+/* Footer */
+.footer-dark {
+  background-color: #0d0e14;
+  color: #f3f3f3;
+  padding: 80px 50px 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.footer-about {
+  flex: 2;
+  max-width: 317px;
+  margin-bottom: 30px;
+}
+
+.footer-about h2 {
+  font-size: 36px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.footer-about p {
+font-size: 12px;
+    line-height: 1.67;
+    text-transform: unset;
+    letter-spacing: .5px;
+    margin: 12px 0px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 180px;
+  margin-bottom: 30px;
+  margin-left: 70px;
+}
+
+.footer-column h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #f9f9f9;
+  margin: 23px 0px;
+  
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 12px;
+
+}
+
+.footer-column ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+  color: #ffffff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 70px;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  max-width: 1400px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-bottom .version {
+  margin-left: 10px;
+  opacity: 0.7;
+}
+
+.social-icons a {
+  color: #dcdcdc;
+  margin-left: 20px;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fff;
+}
+ 

@@ -1,0 +1,113 @@
+
+.contact-banner {
+    width: 1520px;
+    height: 400px;
+    background-color: #fff;
+   
+}
+.contact-banner img{
+    width: 1520px;
+    height: 400px;
+}
+.contact-content{
+    width: 1285px;
+    height: 421px;
+    padding: 0px 10px;
+    margin: 0px  118px 0px 118px;
+    background-color: #fff;
+}
+.contact-content-p{
+width: 1260px;
+height: 421px;
+background-color: #fff;
+padding: 40px 0px;
+}
+
+.contact-section {
+  max-width: 1100px;
+  margin: 0px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.contact-section h2{
+  font-size: 18px;
+  font-weight: 400;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contact-column {
+  width: 350px;
+  text-align: left;
+ 
+}
+
+.contact-column p {
+  margin: 10px 0;
+  line-height: 1.6;
+  color: #656464;
+  font-size: 14px;
+}
+
+.social-address {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 60px;
+}
+
+.social {
+  flex: 1;
+  font-size: 14px;
+  color: #656464;
+}
+
+.social-icons {
+  margin-top: 10px;
+  
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.social-icons .facebook {
+  background-color: #3b5998;
+}
+
+.social-icons .twitter {
+  background-color: #00acee;
+}
+
+.social-icons .instagram {
+
+  background-color: #d6249f;
+}
+
+.address {
+  flex: 1;
+  text-align: left;
+  color: #333;
+}
+
+address {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.6;
+}

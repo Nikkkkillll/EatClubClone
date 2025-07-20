@@ -1,0 +1,167 @@
+
+.whysection{
+    height: 1400px;
+    width: 1520px;
+    background-color: #fff;
+    padding:80px 0px 0px 0px;
+}
+.whycontainer{
+    height: 1300px;
+    background-color:#fff;
+    width: 900px;
+    margin: 0px 310px;
+    border-radius:10px ;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+
+}
+.whyheading{
+    height: 115px;
+    width: 880px;
+    background-color: #fff;
+    margin: 0px 10px 30px 10px;
+    padding: 28px 0px 0px 0px ;
+    display: grid;
+    justify-content: center;
+}
+.whyheading p{
+    font-size: 24px;
+    text-align: center;
+}
+.whyheading img{
+    height: 60px;
+    width: 100px;
+    margin-left: 10px;
+   
+}
+.whybrand{
+    width: 900px;
+    height: 570px;
+    background-color: #fff;
+    padding: 15px;
+    display: inline-flex;
+}
+.brandinfo{
+    height:535px ;
+    width: 434px;
+    background-color: #fff;
+    padding: 15px;
+}
+.brandlogo{
+    height:535px ;
+    width: 434px;
+    background-color: #fff;
+    padding: 0px 15px;
+   
+}
+.brandlogomaincontainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.brandinfoheading{
+    background-color: #fff;
+    font-size: 36px;
+    font-weight: 400;
+    color: #0c0d0d;
+}
+.brandinfodescription{
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    color: #828585;
+    margin-top: 15px;
+}
+.brandlogocontainer{
+    background-color: #fff;
+    height: 94px;
+    width: 117px;
+    padding: 0px 12px;
+    margin: 7px 0px;
+    
+}
+.brandlogocontainer img{
+    height: 94px;
+    width: 94px;
+        box-shadow: 0 7px 15px #0003;
+        border-radius: 50%;
+}
+.whyeatcontent{
+    height: 1098;
+    width: 900px;
+    background-color: #fff;
+    padding: 31px 48px 36px 48px;
+
+}
+
+.whyeatcontent h3{
+    font-size: 31px;
+    text-align: center;
+    
+}
+.branding-text-img{
+    width: 788px;
+    height: 75px;
+    background-color: #fff;
+    margin: 32px 8px;
+    display: flex;
+    gap: 20px;
+}
+.branding-img{
+    height: 75px;
+    width: 75px;
+
+}
+
+.branding-img img{
+     height: 75px;
+    width: 75px;
+}
+.branding-text{
+        font-size: 16px;
+    color: #707373;
+}
+.branding-text p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #0c0d0d;
+    margin-top:15px ;
+    margin-bottom: 8px;
+
+}
+/* .selectyour{
+    width: 804px;
+    height: 24px;
+    font-size: 24px;
+    color: #0c0d0d;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.membership{
+    width: 804px;
+    height: 29px;
+    font-size: 29px;
+    color: #0c0d0d;
+    font-weight: 700;
+    text-align: center;
+}
+.Weavailablelocation{
+    width: 804px;
+    height: 14px;
+    font-size: 13px;
+    color: #0c0d0d;
+    margin: 16px 0px;
+    text-align: center;
+} */
+.buttonExploreBrands{
+    color:#fff ;
+    background-color: #0c0d0d;
+    width: 179px;
+    height: 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 308px 0px 308px;
+
+
+}
