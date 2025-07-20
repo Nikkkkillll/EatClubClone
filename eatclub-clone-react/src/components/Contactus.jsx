@@ -1,0 +1,64 @@
+import React from "react";
+import banner from '../image/contact-banner.png'
+
+export default function Contactus() {
+    return (
+        <div>
+            <section>
+                <div class="contact-banner">
+                    <img src={banner} alt="" />
+                </div>
+
+                <div class="contact-content">
+                    <div class="contact-content-p">
+
+                        <section class="contact-section">
+                            <h2>We are always happy to hear from our customers!</h2>
+                            <div class="contact-info">
+                                <div class="contact-column">
+                                    <p>Have feedback or just want to say ‘Hello’?<br />
+                                        Write to us: <strong>hello@eatclub.in</strong>
+                                    </p>
+                                    <p>Want to partner with EatClub?<br />
+                                        Contact: <strong>partnerships@eatclub.in</strong>
+                                    </p>
+                                </div>
+                                <div class="contact-column">
+                                    <p>Looking to place a bulk order?<br />
+                                        Contact: <strong>corporatesales@eatclub.in</strong>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact-info">
+                                <div class="contact-column">
+                                    <div class="social">
+                                        <p><strong>Follow us on Social Media for the latest updates!</strong></p>
+                                        <div class="social-icons">
+                                            <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</a>
+                                            <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i> Twitter</a>
+                                            <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contact-column">
+                                    <div class="address">
+                                        <p><strong>Registered Address:</strong></p>
+                                        <address>
+                                            55 Corporate Avenue,<br />
+                                            Saki Vihar Rd, Tunga Village,<br />
+                                            Chandivali, Powai, Mumbai, Maharashtra 400072
+                                        </address>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </section>
+                    </div>
+
+
+                </div>
+            </section>
+        </div>
+    )
+}

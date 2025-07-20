@@ -1,0 +1,45 @@
+import React from "react"
+
+export default function Privacy() {
+    return (
+        <div>
+            <div class="privacycontainer">
+                <h3>Fraud Protection</h3>
+                <p>The customer's IP address is logged in at the time of order placement. This is done for reasons of fraud protection.</p>
+                <p>In case of fraudulent orders, they are identified and submitted to the appropriate authorities.</p>
+                <p>A customer has the right to visit the EatClub’s web page without submitting any personal identifiable information.</p>
+                <p>The web servers merely collect the domain names and not personal information of the customer.</p>
+                <p>
+                    EatClub reserves the right to collect personal information from the customer, including but not limited to first and last name, telephone &amp; mobile numbers, email address, delivery address &amp; any other information voluntarily provided by the customer.
+                </p>
+                <p>This information is collected in the event a customer is:</p>
+                <ul class="light-list">
+                    <li>Placing an order on the website/app or through other platforms.</li>
+                    <li>Entering a contest or promotional activity.</li>
+                    <li>Participating in a survey.</li>
+                    <li>Subscribing to the brand’s mailing list.</li>
+                    <li>Applying for a job.</li>
+                    <li>Submitting website/app feedback.</li>
+                </ul>
+                <p><strong>Personal information collected by EatClub from any other source will be duly informed.</strong></p>
+                <hr />
+                <h3>Use and Disclosure</h3>
+                <p>Apart from the events mentioned above, EatClub may use the personal information collected to improve the content of the website/app, customize the website/app to the customer's preferences, communicate information to the customer, and for any other specified purposes.</p>
+                <p>EatClub may also store and process the personal information collected in order to provide goods and services.</p>
+                <p>The personal information is used in accordance to the customers benefit, including but not limited to any of the following purposes:</p>
+                <ul class="light-list">
+                    <li>Provide the customer with outlet or promotion information.</li>
+                    <li>Process an online order placed by the customer.</li>
+                    <li>Determine the number of unique customers the website/app receives on any given day.</li>
+                    <li>Conduct reviews of the website/app.</li>
+                    <li>Fulfill prizes, awards and purchases.</li>
+                    <li>Respond to specific requests from customers</li>
+                </ul>
+                <p><strong></strong></p>
+                <hr />
+            </div>
+        </div>
+    )
+}
+
+
