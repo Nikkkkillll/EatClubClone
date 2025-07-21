@@ -11,9 +11,7 @@ import Help from './components/Help';
 import Delivery from './components/Delivery';
 import Privacy from './components/Privacy';
 import Disclaimer from './components/Disclaimer';
-
-
-
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
   return (
@@ -21,6 +19,7 @@ function App() {
 
       <Router>
         <Navbar />
+        <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home/>} />
           <Route path="/whyeatclub" element={<Whyeatclub />} /> {/* 👈 add this route */}
