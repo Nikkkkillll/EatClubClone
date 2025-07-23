@@ -1,41 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+import React from "react";
+import { Link } from "react-router-dom";
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Value Fun Pizza</title>
-    <link rel="stylesheet" href="ValueFun99.css" />
-
-</head>
-
-<body>
-
-    <section class="menu-section">
+export default function ValueFun99() {
+    return (
+        <div>
+            <section class="menu-section">
         <h2>VALUE FUN PIZZA @ 99</h2>
         <p>Made with 100% real dairy cheese. 0% Mayonnaise. Pocket friendly pizzas, at just ₹99.</p>
 
         <div class="card-container">
-            <!-- Spicy Jalapeno -->
+            {/* <!-- Spicy Jalapeno --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Spicy Jalapeno Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                     <p>Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
                 <div class="price-add">
                     <span class="price">₹ 99 <del>₹ 195</del></span>
-                    <button class="add-btn">ADD +</button>
+                    <button class="add-btn">
+                        <Link to='/cart'>
+                            ADD +
+                        </Link>
+                    </button>
                 </div>
             </div>
-            <!-- Capsicum -->
+            {/* <!-- Capsicum --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Capsicum Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                      <p>Tangy, Spicy Jalapenos with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
@@ -45,12 +42,12 @@
                 </div>
             </div>
 
-            <!-- Golden Corn -->
+            {/* <!-- Golden Corn --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Golden Corn Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                     <p>Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
@@ -61,12 +58,12 @@
                 </div>
             </div>
 
-            <!-- Capsicum -->
+            {/* <!-- Capsicum --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Capsicum Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                      <p>Tangy, Spicy Jalapenos with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
@@ -75,12 +72,12 @@
                     <button class="add-btn">ADD +</button>
                 </div>
             </div>
-            <!-- Golden Corn -->
+            {/* <!-- Golden Corn --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Golden Corn Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                     <p>Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
@@ -90,12 +87,12 @@
                     <button class="add-btn">ADD +</button>
                 </div>
             </div>
-            <!-- Spicy Jalapeno -->
+            {/* <!-- Spicy Jalapeno --> */}
             <div class="pizza-card">
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Spicy Jalapeno Pizza" />
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
-                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="">
+                            src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
                         Golden Corn Pizza [Regular 7"]</h3>
                     <p>Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
                 </div>
@@ -106,7 +103,6 @@
             </div>
         </div>
     </section>
-
-</body>
-
-</html>
+        </div>
+    );
+}

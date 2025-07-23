@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  
+  color: #333;
+}
+
+.menu-section {
+  /* text-align: center; */
+  max-width: 1200px;
+  margin: 120px auto;
+ 
+}
+
+.menu-section h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+ 
+}
+
+.menu-section p {
+  font-size: 12px;
+  color: #777;
+  margin-bottom: 30px;
+
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.pizza-card {
+  width: 350px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.pizza-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.pizza-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+ 
+}
+.pizza-card h3{
+    display: flex;
+   
+}
+.imgcontent{
+    width: 330px;
+    height: 80px;
+    
+    padding: 0px 10px 0px 10px;
+}
+.vegsignlogo{
+    height: 13px;
+    max-width: 14px;
+    margin: 2px 5px 0px 0px ;
+    
+}
+
+.pizza-card h3 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+  color: #41495a;
+}
+
+.pizza-card p {
+  font-size: 13px;
+  color: 7c7f8a;
+}
+
+.price-add {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0px 15px;
+  
+}
+
+.price {
+
+  font-size: 14px;
+  color: #000;
+}
+
+.price del {
+  color: #aaa;
+  margin-left: 5px;
+}
+
+.add-btn {
+  padding: 6px 18px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #f0f0f0;
+}

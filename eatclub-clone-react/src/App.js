@@ -12,13 +12,14 @@ import Delivery from './components/Delivery';
 import Privacy from './components/Privacy';
 import Disclaimer from './components/Disclaimer';
 import ScrollToTop from './components/ScrollToTop'
-
+import ValueFun99 from './components/ValueFun99'
+import Cart from './components/Cart'
 function App() {
   return (
     <div className="App">
 
       <Router>
-        <Navbar />
+        <Navbar />  
         <ScrollToTop/>
         <Routes>
           <Route path="/" element={<Home/>} />
@@ -30,6 +31,9 @@ function App() {
           <Route path="/deliverypolicies" element={<Delivery/>} />
           <Route path="/privacypolicies" element={<Privacy/>} />
           <Route path="/disclaimer" element={<Disclaimer/>} />
+          <Route path='/value99' element ={<ValueFun99/>}/>
+          <Route path='/cart' element ={<Cart/>}/>
+
 
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>

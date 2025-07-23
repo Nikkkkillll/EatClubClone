@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
     return (
@@ -13,7 +14,9 @@ export default function Home() {
                         <h2>Top offers today</h2>
                         <div className="offers">
                             <div className="offer-card">
-                                <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2396" alt=""/>
+                                <Link to='/value99'>
+                                    <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2396" alt=""/>
+                                </Link>
                             </div>
                             <div className="offer-card">
                                 <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2390" alt=""/>

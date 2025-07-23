@@ -1,0 +1,142 @@
+
+
+.cart-container {
+  max-width: 350px;
+  background: #f7f8fa;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 130px auto;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.cart-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.item-count {
+  color: #333;
+}
+
+.cart-item {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.cart-item h3 {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-left {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.item-name {
+  font-weight: 500;
+}
+
+.customize-text {
+  font-style: italic;
+  font-size: 12px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.item-right {
+  text-align: right;
+}
+
+.item-price {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.quantity-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.quantity-box button {
+  padding: 6px 10px;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.quantity-box span {
+  padding: 0 10px;
+}
+
+.coupon-box {
+  background: #fff;
+  padding: 12px;
+  border: 1px dashed #ccc;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.coupon-text {
+  font-weight: 500;
+}
+
+.bill-section {
+  background: #fff;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.bill-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.to-pay {
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.promo-button {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.promo-button strong {
+  font-weight: bold;
+}
+
