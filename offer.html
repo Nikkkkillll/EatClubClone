@@ -1,99 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>All Offers</title>
-  <link rel="stylesheet" href="ofer.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Offers</title>
+  <link rel="stylesheet" href="ofer.css" />
 </head>
+
 <body>
-  <div class="container">
-    <!-- Tabs -->
-    <div class="tabs">
-      <button class="tab active">All Offers</button>
-      <button class="tab">Flat OFF</button>
-      <button class="tab">Payment Partners</button>
-    </div>
+  <section class="MainSection">
+    <div class="container">
+      <div class="tabs">
+        <button class="tab active">All Offers</button>
+        <button class="tab">Flat OFF</button>
+        <button class="tab">Payment Partners</button>
+      </div>
 
-    <h2>All Offers</h2>
+      <h2 class="heading">All Offers</h2>
 
-    <!-- Offer Cards -->
-    <div class="offers">
-      <div class="offer-card">
-        <img src="https://i.imgur.com/w1URa7N.png" alt="Umbrella Offer">
-        <div class="offer-content">
-          <h3>Free Umbrella worth ₹300 - Eatclub Members</h3>
-          <p>Valid once/user</p>
-          <div class="coupon">
-            <span>Copy Code : <strong>UMBRELLACLUB</strong></span>
-            <button class="copy-btn">📋</button>
+      <div class="offers">
+        <div class="offer-card">
+          <img src="https://assets.codepen.io/123574/umbrella.png" alt="Umbrella" class="offer-image" />
+          <div class="offer-details">
+            <h3>Free Umbrella worth ₹300 - Eatclub Members</h3>
+            <p>Valid once/user</p>
+            <div class="coupon">
+              <span><strong>Copy Code:</strong> UMBRELLACLUB</span>
+              <button class="copy-btn">📋</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer-card">
+          <img src="https://assets.codepen.io/123574/umbrella.png" alt="Umbrella" class="offer-image" />
+          <div class="offer-details">
+            <h3>Free Umbrella worth ₹300</h3>
+            <p>Valid once/user</p>
+            <div class="coupon">
+              <span><strong>Copy Code:</strong> UMBRELLA</span>
+              <button class="copy-btn">📋</button>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="offer-card">
-        <img src="https://i.imgur.com/w1URa7N.png" alt="Umbrella Offer">
-        <div class="offer-content">
-          <h3>Free Umbrella worth ₹300</h3>
-          <p>Valid once/user</p>
-          <div class="coupon">
-            <span>Copy Code : <strong>UMBRELLA</strong></span>
-            <button class="copy-btn">📋</button>
-          </div>
+    <div class="container">
+      <h2 class="heading">Flat OFF</h2>
+
+      <div class="flat-off-container">
+        <!-- Offer Card 1 -->
+        <div class="flat-off-card">
+          <div class="badge">🏷️</div>
+          <p class="user-type">For New Users</p>
+          <h3 class="offer-text">Flat ₹150 OFF<br>on first 3 orders</h3>
+          <div class="code-box">WELCOME3</div>
+        </div>
+
+        <!-- Offer Card 2 -->
+        <div class="flat-off-card">
+          <div class="badge">🏷️</div>
+          <p class="user-type">For All Users</p>
+          <h3 class="offer-text">Get Free<br>Delivery</h3>
+          <div class="code-box">FREEDEL</div>
+        </div>
+
+        <!-- Offer Card 3 -->
+        <div class="flat-off-card">
+          <div class="badge">🏷️</div>
+          <p class="user-type">For All Users</p>
+          <h3 class="offer-text">Flat 50% OFF<br>upto ₹100</h3>
+          <div class="code-box">EC50</div>
         </div>
       </div>
-    </div>
-  </div>
-  <section class="offers-section">
-    <h2>Flat OFF</h2>
-    <div class="offer-cards">
-      <div class="card">
-        <p class="subtext">For New Users</p>
-        <h3>Flat ₹150 OFF<br>on first 3 orders</h3>
-        <div class="coupon">WELCOME3</div>
-      </div>
-      <div class="card">
-        <p class="subtext">For All Users</p>
-        <h3>Get Free<br>Delivery</h3>
-        <div class="coupon">FREEDEL</div>
-      </div>
-      <div class="card">
-        <p class="subtext">For All Users</p>
-        <h3>Flat 50% OFF<br>upto ₹100</h3>
-        <div class="coupon">EC50</div>
-      </div>
-    </div>
-  </section>
 
-  <section class="payment-section">
+    </div>
+<div class="container">
+    <section class="payment-section">
     <h2>Payment Partners</h2>
-    <p class="description">Discount auto-applies upon payment</p>
-    <div class="payment-cards">
-      <div class="payment-card">
-        <img src="cred-logo.png" alt="CRED logo" class="logo">
-        <div>
-          <h4>Upto ₹250 Cashback</h4>
+    <p class="subtext">Discount auto-applies upon payment</p>
+
+    <div class="partner-container">
+      <!-- Card 1 -->
+      <div class="partner-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Cred_logo.svg/512px-Cred_logo.svg.png" alt="CRED" class="partner-logo">
+        <div class="partner-details">
+          <h3>Upto ₹250 Cashback</h3>
           <p>Valid on top of all offers</p>
-          <p class="validity">VALIDITY: 31 JUL 2025</p>
+          <span class="validity">VALIDITY: 31 JUL 2025</span>
         </div>
+        <span class="arrow">›</span>
       </div>
-      <div class="payment-card">
-        <img src="lazypay-logo.png" alt="LazyPay logo" class="logo">
-        <div>
-          <h4>Assured ₹20–150 Cashback</h4>
+
+      <!-- Card 2 -->
+      <div class="partner-card">
+        <img src="https://seeklogo.com/images/L/lazypay-logo-7359C55E3C-seeklogo.com.png" alt="LazyPay" class="partner-logo">
+        <div class="partner-details">
+          <h3>Assured ₹20-150 Cashback</h3>
           <p>Valid on top of all offers</p>
-          <p class="validity">VALIDITY: 31 JUL 2025</p>
+          <span class="validity">VALIDITY: 31 JUL 2025</span>
         </div>
+        <span class="arrow">›</span>
       </div>
-      <div class="payment-card">
-        <img src="paytm-logo.png" alt="Paytm logo" class="logo">
-        <div>
-          <h4>Flat ₹10 Cashback</h4>
+
+      <!-- Card 3 -->
+      <div class="partner-card">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Paytm_logo.svg/2560px-Paytm_logo.svg.png" alt="Paytm" class="partner-logo">
+        <div class="partner-details">
+          <h3>Flat ₹10 Cashback</h3>
           <p>Valid once/user on top of all offers</p>
-          <p class="validity">VALIDITY: 31 JUL 2025</p>
+          <span class="validity">VALIDITY: 31 JUL 2025</span>
         </div>
+        <span class="arrow">›</span>
       </div>
     </div>
   </section>
 
+</div>
+  </section>
 </body>
+
 </html>

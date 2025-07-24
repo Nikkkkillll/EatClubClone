@@ -3,7 +3,7 @@
         "id":1,
         "name":"Spicy Jalapeno Pizza [Regular 7]",
         "price":99,
-        "type":"manual",
+        "type":"Veg",
         "description":"Tangy, Spicy Jalapenos with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074",
         "rating":5
@@ -12,7 +12,7 @@
         "id":2,
         "name":"Golden Corn Pizza [Regular 7]",
         "price":99,
-        "type":"Electric",
+        "type":"Veg",
         "description":"Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7753"
     },
@@ -20,7 +20,7 @@
         "id":3,
         "name":"Capsicum Pizza [Regular 7]",
         "price":99,
-        "type":"Acoustic",
+        "type":"Veg",
         "description":"Roasted Capsicum with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7752"
     },
@@ -28,7 +28,7 @@
         "id":4,
         "name":"Onion Pizza [Regular 7]",
         "price":99,
-        "type":"Acoustic",
+        "type":"Veg",
         "description":"Onions with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7750"
     },
@@ -36,7 +36,7 @@
         "id":5,
         "name":"Tomato Pizza [Regular 7]",
         "price":99,
-        "type":"Electric",
+        "type":"Veg",
         "description":"Juicy Tomatoes with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7751"
     },
@@ -44,7 +44,7 @@
         "id":6,
         "name":"Chicken & Onion Pizza [Regular 7]",
         "price":99,
-        "type":"Acoustic",
+        "type":"Non-veg",
         "description":"Herb Chicken, Onion with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/9316"
     },
@@ -52,7 +52,7 @@
         "id":7,
         "name":"Any Value Pizza + Garlic Breadsticks",
         "price":179,
-        "type":"Acoustic",
+        "type":"Veg",
         "description":"Any Value Pizza & Classic Garlic Breadsticks. The perfect pair!",
         "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7756"
     }

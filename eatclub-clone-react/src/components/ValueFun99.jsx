@@ -11,7 +11,9 @@ export default function ValueFun99() {
         <div class="card-container">
             {/* <!-- Spicy Jalapeno --> */}
             <div class="pizza-card">
+                <Link to='/cart'>
                 <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Spicy Jalapeno Pizza" />
+                </Link>
                 <div class="imgcontent">
                     <h3><img class="vegsignlogo"
                             src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt=""/>
@@ -20,11 +22,11 @@ export default function ValueFun99() {
                 </div>
                 <div class="price-add">
                     <span class="price">₹ 99 <del>₹ 195</del></span>
-                    <button class="add-btn">
-                        <Link to='/cart'>
+                    <Link to='/cart'>
+                    <button class="add-btn">                        
                             ADD +
-                        </Link>
                     </button>
+                    </Link>
                 </div>
             </div>
             {/* <!-- Capsicum --> */}
