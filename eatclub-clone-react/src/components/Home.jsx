@@ -271,7 +271,7 @@ export default function Home() {
 
                     </div>
                     {/* <!-- coontainer with 5th three container--> */}
-                    <div className="restaurants-container">
+                    {/* <div className="restaurants-container">
                         <div className="membership-cart">
                             <img src="	https://assets.box8.co.in/rectangle-19x10/web/brand/24_disabled" alt=""/>
                                 <div className="membership-containt">
@@ -286,7 +286,7 @@ export default function Home() {
                                 </div>
                         </div>
 
-                    </div>
+                    </div> */}
 
                 </div>
             </main>

@@ -1,0 +1,89 @@
+[
+    {
+        "id":1,
+        "name":"LeanCrust Pizza",
+        "description":"The Thin Crust Experts",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/20_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+        
+    },
+    {
+        "id":2,
+        "name":"BOX8 - Desi Meals",
+        "description":"India’s Largest Desi Meals Brand",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/1",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+        "id":3,
+        "name":"Daily Kitchen- Homely Meals",
+        "description":"Mom-Style Homely Meals That You Can Have Daily",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/31_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+        "id":4,
+        "name":"The Ghee Khichdi Project",
+        "description":"Comforting, Wholesome & Made with 100% Pure Ghee",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/37_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+       "id":5,
+        "name":"ZAZA Mughal Biryani",
+        "description":"India's Most Flavourful Biryani",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/22_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+       "id":6,
+        "name":"MOJO Pizza- 2X Toppings",
+        "description":"India’s Highest Rated Pizza Delivery Chain",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/13",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+        "id":7,
+        "name":"NH1 Bowls",
+        "description":"Highway to North! Real North-Indian Taste.",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/16_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+        
+    },
+    {
+        "id":8,
+        "name":"Mealful Rolls",
+        "description":"India's Biggest Rolls",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/15_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+        "id":9,
+        "name":"BOOM Sandwich",
+        "description":"Sub Style Sandwiches, Freshly Made",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/26_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+        "id":10,
+        "name":"WeFit - Protein Meals",
+        "description":"Upto 74 gm Protein in Bowls, Salads & Sandwiches",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/25_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+       "id":11,
+        "name":"Hola Pasta",
+        "description":"Fresh Gourmet Pasta.",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/27_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    },
+    {
+       "id":12,
+        "name":"Itminaan Matka Biryani",
+        "description":"Slow Cooked & Served in an Earthen Matka",
+        "img":"https://assets.box8.co.in/rectangle-19x10/web/brand/14_disabled",
+        "offer":"30% Off + ZERO Extra Fees"
+    }
+
+]
