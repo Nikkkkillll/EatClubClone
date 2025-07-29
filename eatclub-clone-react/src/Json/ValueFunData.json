@@ -2,51 +2,65 @@
     {
         "id":1,
         "name":"Spicy Jalapeno Pizza [Regular 7]",
-        "price":99,
+        "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "type":"Veg",
         "description":"Tangy, Spicy Jalapenos with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
         
     },
     {
         "id":2,
         "name":"Golden Corn Pizza [Regular 7]",
-        "price":99,
+         "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "type":"Veg",
         "description":"Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7753"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7753",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
     },
     {
         "id":3,
         "name":"Capsicum Pizza [Regular 7]",
-        "price":99,
-        "type":"Veg",
+         "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "description":"Roasted Capsicum with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7752"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7752",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
     },
     {
         "id":4,
         "name":"Onion Pizza [Regular 7]",
-        "price":99,
-        "type":"Veg",
+         "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "description":"Onions with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7750"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7750",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
     },
     {
         "id":5,
         "name":"Tomato Pizza [Regular 7]",
-        "price":99,
-        "type":"Veg",
+         "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "description":"Juicy Tomatoes with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7751"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7751",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
     },
     {
         "id":6,
         "name":"Chicken & Onion Pizza [Regular 7]",
-        "price":99,
-        "type":"Non-veg",
+         "altname":"Spicy Jalapeno Pizza ",
+        "offerprice":99,
+        "price":199,
         "description":"Herb Chicken, Onion with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
-        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/9316"
+        "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/9316",
+        "img1":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
     }
 
 ]

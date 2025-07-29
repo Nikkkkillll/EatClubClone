@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 export default function Footer() {
     return (
         <div>
-            <div class="bannerabovefooter">
-                <img src="	https://eatclub.in/assets/images/eatclub-download-banner.webp" alt="" />
+            <div className="bannerabovefooter">
+                <img src="	https://eatclub.in/assets/images/eatclub-download-banner.webp" alt="eat-club-banner" />
             </div>
             <footer className="footer-dark">
                 <div className="footer-content">
@@ -31,26 +31,26 @@ export default function Footer() {
                     <div className="footer-column">
                         <h4>COMPANY</h4>
                         <ul>
-                            <li><a href="#"><Link to="/about">About Us</Link></a></li>
+                            <li><Link to="/about">About Us</Link></li>
                         </ul>
                     </div>
 
                     <div className="footer-column">
                         <h4>GET HELP</h4>
                         <ul>
-                            <li><a href="#"><Link to="/contactus">Contact us</Link></a></li>
-                            <li><a href="#"><Link to="/help">Help & Support</Link></a></li>
-                            <li><a href="#"><Link to="/deliverypolicies">Delivery Policies</Link></a></li>
-                            <li><a href="#"><Link to="/privacypolicies">Privacy Policies</Link></a></li>
-                            <li><a href="#"><Link to="/disclaimer">Disclaimers </Link></a></li>
+                            <li><Link to="/contactus">Contact us</Link></li>
+                            <li><Link to="/help">Help & Support</Link></li>
+                            <li><Link to="/deliverypolicies">Delivery Policies</Link></li>
+                            <li><Link to="/privacypolicies">Privacy Policies</Link></li>
+                            <li><Link to="/disclaimer">Disclaimers </Link></li>
                         </ul>
                     </div>
 
                     <div className="footer-column">
                         <h4>EXPLORE</h4>
                         <ul>
-                            <li><a href="#">Offers</a></li>
-                            <li><a href="#">Bulk Order</a></li>
+                            <li><Link to="/offer">Offers</Link></li>
+                            <li><Link to="/bulkorder">Bulk Order</Link></li>
                         </ul>
                     </div>
                 </div>

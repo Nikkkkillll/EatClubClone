@@ -1,0 +1,19 @@
+{/* <div className="pizza-card">
+                        <Link to='/cart'>
+                            <img src="https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074" alt="Spicy Jalapeno Pizza" />
+                        </Link>
+                        <div className="imgcontent">
+                            <h3><img className="vegsignlogo"
+                                src="https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg" alt="" />
+                                Golden Corn Pizza [Regular 7"]</h3>
+                            <p>Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise</p>
+                        </div>
+                        <div className="price-add">
+                            <span className="price">₹ 99 <del>₹ 195</del></span>
+                            <Link to='/cart'>
+                                <button className="add-btn">
+                                    ADD +
+                                </button>
+                            </Link>
+                        </div>
+                    </div> */}

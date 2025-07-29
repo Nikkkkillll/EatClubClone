@@ -1,0 +1,132 @@
+[
+  {
+    "id":1,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11537",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Mini Samosas",
+    "description": "Comes with Mint Chutney & Imli Chutney. Pack of 3/6 crispy, mini sized samosas with savory aloo masala filling. Most popular desi snack!",
+    "price": 69,
+    "discounted_price": 48
+    
+  },
+  {
+    "id":2,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11535",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Amritsari Lassi [200 ml]",
+    "description": "Fresh Lassi with rich dry fruits, pure kesar & elaichi. An Amritsari delight. Zero added flavours/preservatives.",
+    "price": 79,
+    "discounted_price": 55
+    
+  },
+  {
+    "id":3,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11539",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Pav Bhaji",
+    "description": "Bombay-style bhaji made with fresh vegetables and flavorful spices + 2 Pavs [4 Pc] + Onions",
+    "price": 199,
+    "discounted_price": 139
+   
+  },
+  {
+    "id":4,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11536",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Mysore Curd-Rice Meal",
+    "description": "Tadka curd-rice topped with roasted cashews & pomegranate + Papad + Pickle + Onions",
+    "price": 149,
+    "discounted_price": 104
+   
+  },
+  {
+    "id":5,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11540",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Ghee Moong Dal Khichdi",
+    "description": "[Meal for 1, Made in 100% Ghee] Served with Papad, Pickle & Onions. Goodness of moong dal, rice, traditional Indian spices - a perfect light meal.",
+    "price": 199,
+    "discounted_price": 139
+    
+  },
+  {
+    "id":6,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11541",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Multigrain Millet Khichdi",
+    "description": "[Meal for 1, Made in 100% Ghee, No Rice] Served with Papad, Pickle & Onions. Khichdi made with jowar, bajra, chilka moong dal & tadka of ghee & masalas.",
+    "price": 199,
+    "discounted_price": 139
+    
+  },
+  {
+    "id":7,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11542",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Signature Mixed Pink Pasta",
+    "description": "[Comes with 2 Garlic Breads, Serves 1] Mixed Pink Sauce | No Added Veggies | Penne Pasta",
+    "price": 249,
+    "discounted_price": 174
+    
+  },
+  {
+    "id":8,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11531",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Paneer Tikka Protein Bowl [55g Protein]",
+    "description": "Paneer Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix. 1141 Kcal | Protein: 55g | Carbs: 53g | Fat: 78g | Fiber: 9 g",
+    "price": 299,
+    "discounted_price": 209
+    
+  },
+  {
+    "id":9,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11533",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Grilled Chicken Power Sandwich",
+    "description": "Grilled Chicken | Thick Yogurt Spread | Green Chutney | Capsicum + Tomato + Onion | Multi-Grain Bread 606 Kcal | Protein: 31g | Carbs: 66g | Fat: 24g | Fiber: 7g",
+    "price": 199,
+    "discounted_price": 139
+    
+  },
+  {
+    "id":10,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11534",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Cheesy Chicken Alfredo Pasta",
+    "description": "[Comes with 2 Garlic Breads, Serves 1] Herb Garlic Grilled Chicken | Creamy White Sauce | Penne Pasta",
+    "price": 299,
+    "discounted_price": 209
+    
+  },
+  {
+    "id":11,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11532",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Herb Chicken Protein Bowl [74g Protein]",
+    "description": "Herb Grilled Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix 918 Kcal | Protein: 74g | Carbs: 48g | Fat: 48g | Fiber: 9g",
+    "price": 299,
+    "discounted_price": 209
+    
+  },
+  {
+    "id":12,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11530",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Greek Blueberry Cheesecake Ice Cream",
+    "description": "Inspired by the desserts at the local Greek patisseries. This indulgent ice cream is made of tarty blueberries smothered in fine cheesecake. Silky smooth & super creamy!",
+    "price": 99,
+    "discounted_price": 69
+    
+  },
+  {
+    "id":13,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11538",
+    "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Mom-Style Aloo Matar Meal",
+    "description": "Aloo in a flavourful masala curry + Yellow Dal/Kadhi Pakoda + Phulkas/Parathas/Rice.",
+    "price": 219,
+    "discounted_price": 153
+    
+  }
+]

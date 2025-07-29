@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "name": "Chole Rice Bowl",
+        "altname": "Chole Rice Bowl",
+        "offerprice": 99,
+        "price": 169,
+        "type": "Veg",
+        "description":"[Serves 1] Comes in a bowl with Rice + Chatpate chole cooked in a thick tomato, herb & spice base. Truly delicious!",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11993",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+    },
+    {
+        "id": 2,
+        "name": "Kadhi Pakoda Rice Bowl",
+        "altname": "Kadhi Pakoda Rice Bowl",
+        "offerprice": 99,
+        "price": 159,
+        "type": "Veg",
+        "description":"[Serves 1] Comes in a bowl with Rice + Tangy & creamy authentic Kadhi Pakoda flavoured with masalas. Savour the epic taste!",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11991",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+    },
+    {
+        "id": 3,
+        "name": "Veggie Delight Sub-Sandwich",
+        "altname": "Veggie Delight Sub-Sandwich",
+        "offerprice": 99,
+        "price": 129,
+        "type": "Veg",
+        "description":"Bell Peppers | Olives + Jalapenos | Mint Chutney | Garlic Cream Sauce | Capsicum + Onion + Tomato | Multi-Grain Bread",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12012",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+    },
+    {
+        "id": 4,
+        "name": "Tandoori Chicken Mini Roll",
+        "altname": "Chole Rice Bowl",
+        "offerprice": 99,
+        "price": 139,
+        "type": "Veg",
+        "description":"[Small 7, 100% Whole Wheat Base] Fire-grilled chicken with dollops of mayo, peri-peri mix, green chutney & crunchy veggies in a mini roll",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11989",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg"
+    },
+    {
+        "id": 5,
+        "name": "Dal Makhani - Light Meal",
+        "altname": "Dal Makhani - Light Meal",
+        "offerprice": 119,
+        "price": 149,
+        "type": "Veg",
+        "description":"Creamy & slow-cooked Dal Makhani + Phulkas/Parathas/Rice.",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11982",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+    },
+    {
+        "id": 6,
+        "name": "Dum Aloo Biryani",
+        "altname": "Dum Aloo Biryani",
+        "offerprice": 99,
+        "price": 179,
+        "type": "Veg",
+        "description":"[Half KG, Serves 1, Raita not included] Mughal style biryani with flavour-packed aloo & long grain rice. Feast at an unbelievable price!",
+        "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11993",
+        "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Pizza",
+        "img":"https://assets.box8.co.in/horizontal-rectangle/web/banner/2504" 
+    },
+    {
+        "id": 2,
+        "name": "Biryani",
+        "img": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2503"
+    },
+    {
+        "id": 3,
+        "name": "Daily Meals",
+        "img": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2506" 
+    },
+    {
+        "id": 4,
+        "name": "Bowl",
+        "img": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2500" 
+    },
+    {
+        "id": 5,
+        "name": "Thali",
+        "img":  "https://assets.box8.co.in/horizontal-rectangle/web/banner/2505"
+    },
+    {
+        "id": 6,
+        "name": "ThinCrust",
+        "img":  "https://assets.box8.co.in/horizontal-rectangle/web/banner/2498"
+    },
+    {
+        "id": 7,
+        "name": "Rolls",
+        "img":  "https://assets.box8.co.in/horizontal-rectangle/web/banner/2501"
+    },
+    {
+        "id": 8,
+        "name": "Light Meal",
+        "img":  "https://assets.box8.co.in/horizontal-rectangle/web/banner/2507"
+    },
+    {
+        "id": 9,
+        "name": "High Protein",
+        "img":"https://assets.box8.co.in/horizontal-rectangle/web/banner/2502"
+    }
+]

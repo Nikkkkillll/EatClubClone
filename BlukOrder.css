@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.bulk-wrapper {
+  width: 100%;
+  max-width: 1520px;
+  margin: 60px auto;
+}
+
+
+.bluk-banner {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bluk-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    /* optional: keeps aspect ratio */
+
+}
+
+.form-container {
+    max-width: 100%;
+    max-width: 450px;
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 15%;
+    left: 60%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.sub-text {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.4rem;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+    width: 90%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.radio-group label {
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+button {
+    width: 100%;
+    padding: 0.9rem;
+    margin-top: 1.5rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+    .form-container {
+        padding: 1rem;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        position: static;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .sub-text {
+        font-size: 0.85rem;
+    }
+}

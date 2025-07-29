@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  cursor: pointer;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.divider {
+  margin: 20px 0;
+  position: relative;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.social-buttons button {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  background-color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.google-btn::before {
+  content: '🌐';
+  margin-right: 8px;
+}
+
+.facebook-btn::before {
+  content: '📘';
+  margin-right: 8px;
+}
+
+.login-text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login-text a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}

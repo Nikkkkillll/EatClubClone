@@ -19,13 +19,19 @@ export default function Home() {
                                 </Link>
                             </div>
                             <div className="offer-card">
+                                <Link to='/store99'>
                                 <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2390" alt=""/>
+                                </Link>
                             </div>
                             <div className="offer-card">
+                                <Link to='/whatnew'>
                                 <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2483" alt=""/>
+                                </Link>
                             </div>
                             <div className="offer-card">
+                                 <Link to='/ProteinMeals'>
                                 <img src="https://assets.box8.co.in/horizontal-rectangle/web/banner/2397" alt=""/>
+                                </Link>
                             </div>
                             <div className="offer-card">
                                 <img src="	https://assets.box8.co.in/horizontal-rectangle/web/banner/2400" alt=""/>

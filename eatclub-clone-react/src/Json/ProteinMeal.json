@@ -1,0 +1,82 @@
+[
+  {
+    "id":1,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5018",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Paneer Tikka Whole Bowl [55g Protein]",
+    "description": "Paneer Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "1141 Kcal | Protein: 55g | Carbs: 53g | Fat: 78g | Fiber: 9g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":2,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12207",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Pesto & Paneer Supreme Bowl [55g - High Protein]",
+    "description": "Grilled Paneer 200g | Dressing: Pesto | Barley | Lettuce, Kale & Red Cabbage | Bell Peppers, Olive, Jalapeno, Cucumber | Super Seed Mix. [High Protein, Grilled, Fiber Rich]",
+    "nutrition": "1411 Kcal | Protein: 55g | Carbs: 54g | Fat: 109g | Fiber: 12g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":3,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5019",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+    "title": "Paneer Peri Peri Power Bowl [55g Protein]",
+    "description": "Peri Peri Paneer 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "1231 Kcal | Protein: 55g | Carbs: 54g | Fat: 88g | Fiber: 10g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":4,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5022",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Herb Chicken Mighty Bowl [74g Protein]",
+    "description": "Herb Grilled Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "918 Kcal | Protein: 74g | Carbs: 48g | Fat: 48g | Fiber: 9g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":5,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12209",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Pesto & Chicken Dominator Bowl [74g - High Protein]",
+    "description": "Herb Rub Chicken 200g | Dressing: Pesto | Barley | Lettuce, Kale & Red Cabbage | Bell Peppers, Olive, Jalapeno, Cucumber | Super Seed Mix. [High Protein, Grilled, Fiber Rich]",
+    "nutrition": "1212 Kcal | Protein: 74g | Carbs: 51g | Fat: 80g | Fiber: 12g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":6,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5020",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Chicken Tikka Super Bowl [74g Protein]",
+    "description": "Chicken Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "942 Kcal | Protein: 74g | Carbs: 50g | Fat: 49g | Fiber: 10g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":7,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5023",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "BBQ Chicken Beast Bowl [74g Protein]",
+    "description": "BBQ Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "962 Kcal | Protein: 74g | Carbs: 56g | Fat: 49g | Fiber: 10g",
+    "original_price": 299,
+    "discount_price": 209
+  },
+  {
+    "id":8,
+    "img":"https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5021",
+    "indiimg":"https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+    "title": "Chicken Peri Peri Boss Bowl [74g Protein]",
+    "description": "Peri Peri Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+    "nutrition": "1033 Kcal | Protein: 74g | Carbs: 51g | Fat: 59g | Fiber: 10g",
+    "original_price": 299,
+    "discount_price": 209
+  }
+]

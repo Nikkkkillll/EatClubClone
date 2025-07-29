@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ValueFun99(valuelist) {
+function ProteinMeals(valuelist) {
     const renderList = ({ valuelist }) => {
         if (valuelist) {
             return valuelist.map((value) => {
@@ -10,16 +10,16 @@ function ValueFun99(valuelist) {
                         {/* <!-- Spicy Jalapeno --> */}
                         <div key={value.id} className="pizza-card">
                             <Link to='/cart'>
-                                <img src={value.img} alt={value.altname} />
+                                <img src={value.img} alt={value.title} />
                             </Link>
                             <div className="imgcontent">
                                 <h3><img className="vegsignlogo"
-                                    src={value.img1} alt={value.name} />
-                                    {value.name}</h3>
+                                    src={value.indiimg} alt={value.title} />
+                                    {value.title}</h3>
                                 <p>{value.description}</p>
                             </div>
                             <div className="price-add">
-                                <span className="price">₹{value.offerprice} <del>₹{value.price}</del></span>
+                                <span className="price">₹{value.discount_price} <del>₹{value.original_price}</del></span>
                                 <Link to='/cart'>
                                     <button className="add-btn">
                                         ADD +
@@ -35,8 +35,8 @@ function ValueFun99(valuelist) {
     return (
         <div>
             <section className="menu-section">
-                <h2>VALUE FUN PIZZA @ 99</h2>
-                <p>Made with 100% real dairy cheese. 0% Mayonnaise. Pocket friendly pizzas, at just ₹99.</p>
+                <h2>WEFIT PROTEIN BOWLS</h2>
+                <p>Wholesome bowls full of proteins, with a good mix of greens, seeds & topped with delicious dressings!</p>
 
                 <div className="card-container">
                     {renderList(valuelist)}
@@ -46,7 +46,7 @@ function ValueFun99(valuelist) {
     );
 }
 
-export default ValueFun99;
+export default ProteinMeals;
 
 
 

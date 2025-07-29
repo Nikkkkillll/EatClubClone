@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-function ValueFun99(valuelist) {
+function Store9(valuelist) {
     const renderList = ({ valuelist }) => {
         if (valuelist) {
             return valuelist.map((value) => {
@@ -14,7 +14,7 @@ function ValueFun99(valuelist) {
                             </Link>
                             <div className="imgcontent">
                                 <h3><img className="vegsignlogo"
-                                    src={value.img1} alt={value.name} />
+                                    src={value.indiimg} alt={value.name} />
                                     {value.name}</h3>
                                 <p>{value.description}</p>
                             </div>
@@ -35,8 +35,8 @@ function ValueFun99(valuelist) {
     return (
         <div>
             <section className="menu-section">
-                <h2>VALUE FUN PIZZA @ 99</h2>
-                <p>Made with 100% real dairy cheese. 0% Mayonnaise. Pocket friendly pizzas, at just ₹99.</p>
+                <h2>₹99 STORE</h2>
+                <p>Introducing our daily-changing menu! Choose from handpicked selections under this special menu, starting at just ₹99.</p>
 
                 <div className="card-container">
                     {renderList(valuelist)}
@@ -46,7 +46,7 @@ function ValueFun99(valuelist) {
     );
 }
 
-export default ValueFun99;
+export default Store9;
 
 
 
