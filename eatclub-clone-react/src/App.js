@@ -45,10 +45,6 @@ function App() {
           <Route path='/whatnew' element ={<WhatNewList/>}/>
           <Route path='/ProteinMeals' element ={<ProteinMealsList/>}/>
 
-
-          
-
-
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>
         <Footer />
