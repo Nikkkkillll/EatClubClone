@@ -5,7 +5,7 @@
   font-family: 'Segoe UI', sans-serif;
 }
 
-body {
+.login-body-container {
   background-color: #f8f8f8;
   height: 100vh;
   display: flex;
@@ -13,7 +13,7 @@ body {
   justify-content: center;
 }
 
-.container {
+.login-container {
   background-color: #fff;
   padding: 40px;
   width: 100%;
@@ -23,19 +23,19 @@ body {
   text-align: center;
 }
 
-h2 {
+.login-container  h2 {
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 8px;
 }
 
-.subtext {
+.login-subtext {
   font-size: 14px;
   color: #777;
   margin-bottom: 20px;
 }
 
-form input {
+.login-form input {
   width: 100%;
   padding: 12px;
   margin-bottom: 12px;
@@ -56,7 +56,7 @@ form input {
   font-weight: 500;
 }
 
-.btn {
+.login-btn {
   width: 100%;
   padding: 12px;
   background-color: #000;
@@ -67,58 +67,12 @@ form input {
   cursor: pointer;
 }
 
-.divider {
-  margin: 20px 0;
-  position: relative;
-  font-size: 14px;
-  color: #666;
-}
-
-.divider::before,
-.divider::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  width: 40%;
-  height: 1px;
-  background-color: #ddd;
-}
-
-.divider::before {
-  left: 0;
-}
-
-.divider::after {
-  right: 0;
-}
-
-.social-buttons button {
-  width: 100%;
-  padding: 10px;
-  margin: 6px 0;
-  border-radius: 30px;
-  border: 1px solid #ccc;
-  background-color: white;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-.google-btn::before {
-  content: '🌐';
-  margin-right: 8px;
-}
-
-.facebook-btn::before {
-  content: '📘';
-  margin-right: 8px;
-}
-
-.register-text {
+.login-register-text {
   margin-top: 20px;
   font-size: 14px;
 }
 
-.register-text a {
+.login-register-text a {
   font-weight: bold;
   color: #000;
   text-decoration: none;

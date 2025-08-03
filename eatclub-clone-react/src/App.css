@@ -1,15 +1,17 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Segoe UI', sans-serif;
 }
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
 }
+
 /* Navbar-Css */
-.header{
+.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -18,87 +20,98 @@ body {
   padding: 18px 60px;
   background-color: #ffffff;
   /*background-color: rgba(255, 255, 255, 0.95); Optional: translucent background*/
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: subtle shadow */
-}
-.navbar{
-    height: 44px;
-    width: 100%;
-    max-width: 1400px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Optional: subtle shadow */
 }
 
-.nav-left{
-    background-color: #fff;
-    height: 44px;
-    width: 100%;
-    max-width:495px;
-    display: flex;
-    align-items: center;
-    
-}
-.eatclub-logo{
-    height: 40px;
-    width: 100%;
-    max-width: 115px;
-    background-color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.eatclub-logo-img{
-    height: 57px;
-    width: 100%;
-    max-width: 95px;
-}
-.search-bar{
-    height: 27px;
-    padding: 4px 16px;
-    background-color: #fff;
-    border: 1px solid #eee;
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.search-bar>span{
-font-size: 14px;
+.navbar {
+  height: 44px;
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
 }
-.search-cont{
-    padding: 0px 90px 0px 10px;
+
+.nav-left {
+  background-color: #fff;
+  height: 44px;
+  width: 100%;
+  max-width: 495px;
+  display: flex;
+  align-items: center;
+
 }
+
+.eatclub-logo {
+  height: 40px;
+  width: 100%;
+  max-width: 115px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eatclub-logo-img {
+  height: 57px;
+  width: 100%;
+  max-width: 95px;
+}
+
+.search-bar {
+  height: 27px;
+  padding: 4px 16px;
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-bar>span {
+  font-size: 14px;
+
+}
+
+.search-cont {
+  padding: 0px 90px 0px 10px;
+}
+
 .navbar-right {
   display: flex;
   align-items: center;
   gap: 15px;
   background-color: #fff;
 }
+
 .nav-link {
-  color:black;
+  color: black;
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
   padding: 0px 12px;
 }
-.offer-logo{
-height: 24px;
-width: 100%;
-max-width: 24px;
-margin-right: 5px;
+
+.offer-logo {
+  height: 24px;
+  width: 100%;
+  max-width: 24px;
+  margin-right: 5px;
 
 }
 
-.dropdown>span{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-evenly;
+.dropdown>span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.nav-link>i{
-    margin-right:10px ;
+
+.nav-link>i {
+  margin-right: 10px;
 }
 
 .btn-outline {
@@ -109,33 +122,36 @@ margin-right: 5px;
   text-decoration: none;
   font-weight: 500;
 }
+
 .btn {
   background-color: #00c6b3;
   color: black;
-  padding:4px 8px;
+  padding: 4px 8px;
   border-radius: 6px;
   text-decoration: none;
   font-weight: 600;
-  margin: 0px 10px ;
-  
+  margin: 0px 10px;
+
 }
-.btn>span{
+
+.btn>span {
   margin: 0px 8px;
   font-size: 14px;
   color: white;
 }
-.banner>img{
-height: 450px;
-width: 100%;
-max-width:1520px;
+
+.banner img {
+  height: 450px;
+  width: 100%;
+  max-width: 1520px;
 }
 
-.food-container{
+.food-container {
   height: 636px;
   width: 100%;
-  max-width:1300px;
-  margin:0px 118px;
-  padding:0px 15px;
+  max-width: 1300px;
+  margin: 0px 118px;
+  padding: 0px 15px;
   background-color: #fff;
 }
 
@@ -147,89 +163,113 @@ max-width:1520px;
 }
 
 .offers {
-  padding: 0px 0px  50px 0px;
+  padding: 0px 0px 50px 0px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
-.offers-card{
+
+.offers-card {
   height: 171px;
   width: 100%;
   max-width: 140px;
 }
-.offer-card img { 
+
+.offer-card img {
   object-fit: contain;
 }
+
 /* <!-- what on your mind container --> */
-.whatonmind h2{
+.whatonmind h2 {
   font-size: 22px;
-  margin-bottom:30px ;
+  margin-bottom: 30px;
   padding-top: 50px;
 }
-.category-scroll{
+
+.category-scroll {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
   padding-bottom: 50px;
 }
-.category{
+
+.category {
   height: 100px;
   width: 100%;
   max-width: 100px;
 }
-.category img{
+
+.category img {
   height: 75px;
   width: 100%;
-  max-width:100px ;
+  max-width: 100px;
 }
-.category-name{
+
+.category-name {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #707786;
   font-size: 14px;
-  font-weight:500 ;
+  font-weight: 500;
 }
+
 /* restrurant section */
-.food-container2{
-  height: 1900px;
+.food-container2 {
+  height: auto;
   width: 100%;
-  max-width:1300px;
-  margin:0px 118px;
-  padding:0px 15px;
+  max-width: 1300px;
+  margin: 0px 118px 50px 118px;
+  padding: 0px 15px;
   background-color: #fff;
 
 }
 
-.heading-restrurant{
+.heading-restrurant {
   font-size: 22px;
-  
+
 }
-.restaurants-container{
-  height: 350px;
+
+.restaurants-container {
   width: 100%;
   max-width: 1270px;
   padding: 24px 14px;
   background-color: #fff;
+  height: auto;
+  /* ✅ grows with content */
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  /* if you want cards in a row */
+  flex-wrap: wrap;
+  /* wrap to next line when space runs out */
+  gap: 1.8rem;
+  /* align-items: center;
+  justify-content: space-between; */
 }
-.membership-cart{
+
+.membership-cart {
   height: 304px;
-width: 100%;
+  width: 100%;
   max-width: 394px;
   background-color: #fff;
   border-radius: 8px;
+  margin-bottom: 10px;
+
 }
-.membership-cart img{
+
+.membership-cart:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  /*transform: translateY(-5px);  optional lift effect */
+}
+
+.membership-cart img {
   height: 207px;
   width: 100%;
   max-width: 394px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 }
-.membership-containt{
+
+.membership-containt {
   width: 100%;
   max-width: 390px;
   height: 55px;
@@ -237,25 +277,28 @@ width: 100%;
   margin-top: 5px;
 }
 
-.membership-name{
+.membership-name {
   width: 100%;
   max-width: 370px;
   font-size: 18px;
   font-weight: 600;
-  margin-bottom:5px ;
+  margin-bottom: 5px;
 }
-.membership-tagline{
-    color: #707786;
-    font-size: 12px;
-    font-weight: 600;
-    width: 100%;
+
+.membership-tagline {
+  color: #707786;
+  font-size: 12px;
+  font-weight: 600;
+  width: 100%;
   max-width: 370px;
 }
-.membership-containt hr{
+
+.membership-containt hr {
   margin-top: 10px;
-   margin-bottom: 6px;
+  margin-bottom: 6px;
 }
-.offer-contain{
+
+.offer-contain {
   height: 26px;
   width: 100%;
   max-width: 294px;
@@ -263,28 +306,33 @@ width: 100%;
 
   align-items: center;
 }
-.membership-containt img{
+
+.membership-containt img {
   height: 14px;
   width: 100%;
   max-width: 14px;
 }
-.offer-contain-tagline{
-    color: #606060;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: .24px;
-    padding: 10px 12px 12px 5px;
+
+.offer-contain-tagline {
+  color: #606060;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: .24px;
+  padding: 10px 12px 12px 5px;
 }
+
 /* Footer ke upar ka banner */
-.bannerabovefooter{
-height: 254px;
+.bannerabovefooter {
+  height: 254px;
 }
-.bannerabovefooter img{
-   width: 100%;
-   max-width: 1520px;
-   height: 254px;
-  
+
+.bannerabovefooter img {
+  width: 100%;
+  max-width: 1520px;
+  height: 254px;
+
 }
+
 /* Footer */
 .footer-dark {
   background-color: #0d0e14;
@@ -313,11 +361,11 @@ height: 254px;
 }
 
 .footer-about p {
-font-size: 12px;
-    line-height: 1.67;
-    text-transform: unset;
-    letter-spacing: .5px;
-    margin: 12px 0px;
+  font-size: 12px;
+  line-height: 1.67;
+  text-transform: unset;
+  letter-spacing: .5px;
+  margin: 12px 0px;
 }
 
 .footer-column {
@@ -332,7 +380,7 @@ font-size: 12px;
   font-weight: bold;
   color: #f9f9f9;
   margin: 23px 0px;
-  
+
 }
 
 .footer-column ul {
@@ -361,7 +409,7 @@ font-size: 12px;
   justify-content: space-between;
   align-items: center;
   padding-top: 70px;
-  border-top: 1px solid rgba(255,255,255,0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   max-width: 1400px;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -384,72 +432,81 @@ font-size: 12px;
 .social-icons a:hover {
   color: #fff;
 }
- /*****************About section css ******************/
- 
+
+/*****************About section css ******************/
+
 .about-banner {
-    width: 1520px;
-    height: 400px;
-    background-color: #fff;
-   
-}
-.about-banner img{
-    width: 1520px;
-    height: 400px;
-}
-.about-content{
-    width: 1270px;
-    height: 380px;
-    padding: 0px 15px;
-    margin: 50px  118px 0px 118px;
-    background-color: #fff;
-}
-.about-content-p{
-width: 889px;
-height: 300px;
-background-color: #fff;
-padding: 10px 0px ;
-margin: 0px 175px;
-}
-.about-content p{
-    background-color: #fff;
-    width: 889px;
-    height: 50px;
-    margin-top: 10px;
+  width: 1520px;
+  height: 400px;
+  background-color: #fff;
+
 }
 
-.about-btn-gb{
-    background-color: #0c0d0d;
-    color: #fff;
-    padding:10px 16px;
-    width: 230px;
-   margin: 60px 340px 0px 340px;
-   border-radius: 3px;
+.about-banner img {
+  width: 1520px;
+  height: 400px;
 }
+
+.about-content {
+  width: 1270px;
+  height: 380px;
+  padding: 0px 15px;
+  margin: 50px 118px 0px 118px;
+  background-color: #fff;
+}
+
+.about-content-p {
+  width: 889px;
+  height: 300px;
+  background-color: #fff;
+  padding: 10px 0px;
+  margin: 0px 175px;
+}
+
+.about-content p {
+  background-color: #fff;
+  width: 889px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.about-btn-gb {
+  background-color: #0c0d0d;
+  color: #fff;
+  padding: 10px 16px;
+  width: 230px;
+  margin: 60px 340px 0px 340px;
+  border-radius: 3px;
+}
+
 /****************** Contact Us ******************/
- 
+
 
 .contact-banner {
-    width: 1520px;
-    height: 400px;
-    background-color: #fff;
-   
+  width: 1520px;
+  height: 400px;
+  background-color: #fff;
+
 }
-.contact-banner img{
-    width: 1520px;
-    height: 400px;
+
+.contact-banner img {
+  width: 1520px;
+  height: 400px;
 }
-.contact-content{
-    width: 1285px;
-    height: 421px;
-    padding: 0px 10px;
-    margin: 0px  118px 0px 118px;
-    background-color: #fff;
+
+.contact-content {
+  width: 1285px;
+  height: 421px;
+  padding: 0px 10px;
+  margin: 0px 118px 0px 118px;
+  background-color: #fff;
 }
-.contact-content-p{
-width: 1260px;
-height: 421px;
-background-color: #fff;
-padding: 40px 0px;
+
+.contact-content-p {
+  width: 1260px;
+  height: 421px;
+  background-color: #fff;
+  padding: 40px 0px;
 }
 
 .contact-section {
@@ -460,10 +517,12 @@ padding: 40px 0px;
   font-family: 'Segoe UI', sans-serif;
   color: #333;
 }
-.contact-section h2{
+
+.contact-section h2 {
   font-size: 18px;
   font-weight: 400;
 }
+
 .contact-info {
   display: flex;
   justify-content: center;
@@ -475,7 +534,7 @@ padding: 40px 0px;
 .contact-column {
   width: 350px;
   text-align: left;
- 
+
 }
 
 .contact-column p {
@@ -502,7 +561,7 @@ padding: 40px 0px;
 
 .social-icons {
   margin-top: 10px;
-  
+
 }
 
 .social-icons a {
@@ -540,6 +599,7 @@ address {
   font-style: normal;
   line-height: 1.6;
 }
+
 /**************** Help & Support ****************/
 .faq-section {
   max-width: 800px;
@@ -563,7 +623,7 @@ address {
 .faq-box {
   background-color: #fff;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   padding: 30px;
 }
 
@@ -598,8 +658,9 @@ address {
   color: #555;
   font-size: 14px;
 }
- /*************** Delivery *******************/
- 
+
+/*************** Delivery *******************/
+
 .deliverycontainer {
   max-width: 1240px;
   margin: 130px auto;
@@ -628,7 +689,7 @@ address {
 
 .deliverycontainer li {
   margin-bottom: 12px;
-  color:#707373;
+  color: #707373;
 }
 
 .deliverycontainer hr {
@@ -645,41 +706,42 @@ address {
   line-height: 1.6;
 }
 
-.privacycontainer  h3 {
+.privacycontainer h3 {
   color: #000;
   margin: 16px 0px;
   font-size: 16px;
- 
+
 }
 
-.privacycontainer  p {
+.privacycontainer p {
   font-size: 14px;
   margin: 8px 0px;
   color: #333;
 }
 
-.privacycontainer  ul.light-list {
+.privacycontainer ul.light-list {
   list-style-type: disc;
   padding-left: 20px;
   font-size: 14px;
   color: #777;
 }
 
-.privacycontainer  ul.light-list li {
+.privacycontainer ul.light-list li {
   margin-bottom: 10px;
 }
 
-.privacycontainer  hr {
+.privacycontainer hr {
   margin: 30px 0;
   border: 0.5px solid #ddd;
 }
+
 /************** Disclaimer **************/
 .disclaimer-section {
   /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
   color: #333;
   padding: 20px;
   max-width: 1300px;
-  margin: 120px auto ;
+  margin: 120px auto;
 }
 
 .disclaimer-section h2 {
@@ -708,138 +770,157 @@ address {
 .disclaimer-section a:hover {
   text-decoration: underline;
 }
+
 /********************* WHy eat club *******************/
 
-.whysection{
-    height: 1400px;
-    width: 1520px;
-    margin-top: 100px;
-    background-color: #fff;
-    padding:80px 0px 0px 0px;
+.whysection {
+  height: 1400px;
+  width: 1520px;
+  margin-top: 100px;
+  background-color: #fff;
+  padding: 80px 0px 0px 0px;
 }
-.whycontainer{
-    height: 1300px;
-    background-color:#fff;
-    width: 900px;
-    margin: 0px 310px;
-    border-radius:10px ;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 
-}
-.whyheading{
-    height: 115px;
-    width: 880px;
-    background-color: #fff;
-    margin: 0px 10px 30px 10px;
-    padding: 28px 0px 0px 0px ;
-    display: grid;
-    justify-content: center;
-}
-.whyheading p{
-    font-size: 24px;
-    text-align: center;
-}
-.whyheading img{
-    height: 60px;
-    width: 100px;
-    margin-left: 10px;
-   
-}
-.whybrand{
-    width: 900px;
-    height: 570px;
-    background-color: #fff;
-    padding: 15px;
-    display: inline-flex;
-}
-.brandinfo{
-    height:535px ;
-    width: 434px;
-    background-color: #fff;
-    padding: 15px;
-}
-.brandlogo{
-    height:535px ;
-    width: 434px;
-    background-color: #fff;
-    padding: 0px 15px;
-   
-}
-.brandlogomaincontainer{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-.brandinfoheading{
-    background-color: #fff;
-    font-size: 36px;
-    font-weight: 400;
-    color: #0c0d0d;
-}
-.brandinfodescription{
-    background-color: #fff;
-    font-size: 16px;
-    font-weight: 400;
-    color: #828585;
-    margin-top: 15px;
-}
-.brandlogocontainer{
-    background-color: #fff;
-    height: 94px;
-    width: 117px;
-    padding: 0px 12px;
-    margin: 7px 0px;
-    
-}
-.brandlogocontainer img{
-    height: 94px;
-    width: 94px;
-        box-shadow: 0 7px 15px #0003;
-        border-radius: 50%;
-}
-.whyeatcontent{
-    height: 1098;
-    width: 900px;
-    background-color: #fff;
-    padding: 31px 48px 36px 48px;
+.whycontainer {
+  height: 1300px;
+  background-color: #fff;
+  width: 900px;
+  margin: 0px 310px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 
 }
 
-.whyeatcontent h3{
-    font-size: 31px;
-    text-align: center;
-    
+.whyheading {
+  height: 115px;
+  width: 880px;
+  background-color: #fff;
+  margin: 0px 10px 30px 10px;
+  padding: 28px 0px 0px 0px;
+  display: grid;
+  justify-content: center;
 }
-.branding-text-img{
-    width: 788px;
-    height: 75px;
-    background-color: #fff;
-    margin: 32px 8px;
-    display: flex;
-    gap: 20px;
+
+.whyheading p {
+  font-size: 24px;
+  text-align: center;
 }
-.branding-img{
-    height: 75px;
-    width: 75px;
+
+.whyheading img {
+  height: 60px;
+  width: 100px;
+  margin-left: 10px;
 
 }
 
-.branding-img img{
-     height: 75px;
-    width: 75px;
+.whybrand {
+  width: 900px;
+  height: 570px;
+  background-color: #fff;
+  padding: 15px;
+  display: inline-flex;
 }
-.branding-text{
-        font-size: 16px;
-    color: #707373;
+
+.brandinfo {
+  height: 535px;
+  width: 434px;
+  background-color: #fff;
+  padding: 15px;
 }
-.branding-text p{
-    font-size: 18px;
-    font-weight: 700;
-    color: #0c0d0d;
-    margin-top:15px ;
-    margin-bottom: 8px;
+
+.brandlogo {
+  height: 535px;
+  width: 434px;
+  background-color: #fff;
+  padding: 0px 15px;
 
 }
+
+.brandlogomaincontainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.brandinfoheading {
+  background-color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  color: #0c0d0d;
+}
+
+.brandinfodescription {
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  color: #828585;
+  margin-top: 15px;
+}
+
+.brandlogocontainer {
+  background-color: #fff;
+  height: 94px;
+  width: 117px;
+  padding: 0px 12px;
+  margin: 7px 0px;
+
+}
+
+.brandlogocontainer img {
+  height: 94px;
+  width: 94px;
+  box-shadow: 0 7px 15px #0003;
+  border-radius: 50%;
+}
+
+.whyeatcontent {
+  height: 1098;
+  width: 900px;
+  background-color: #fff;
+  padding: 31px 48px 36px 48px;
+
+}
+
+.whyeatcontent h3 {
+  font-size: 31px;
+  text-align: center;
+
+}
+
+.branding-text-img {
+  width: 788px;
+  height: 75px;
+  background-color: #fff;
+  margin: 32px 8px;
+  display: flex;
+  gap: 20px;
+}
+
+.branding-img {
+  height: 75px;
+  width: 75px;
+
+}
+
+.branding-img img {
+  height: 75px;
+  width: 75px;
+}
+
+.branding-text {
+  font-size: 16px;
+  color: #707373;
+}
+
+.branding-text p {
+  font-size: 18px;
+  font-weight: 700;
+  color: #0c0d0d;
+  margin-top: 15px;
+  margin-bottom: 8px;
+
+}
+
 /* .selectyour{
     width: 804px;
     height: 24px;
@@ -864,32 +945,33 @@ address {
     margin: 16px 0px;
     text-align: center;
 } */
-.buttonExploreBrands{
-    color:#fff ;
-    background-color: #0c0d0d;
-    width: 179px;
-    height: 50px;
-    border-radius: 3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px 308px 0px 308px;
+.buttonExploreBrands {
+  color: #fff;
+  background-color: #0c0d0d;
+  width: 179px;
+  height: 50px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 308px 0px 308px;
 
 
 }
+
 /*********** ValueFun99 *********/
 
 .menu-section {
   /* text-align: center; */
   max-width: 1200px;
   margin: 120px auto;
- 
+
 }
 
 .menu-section h2 {
   font-size: 16px;
   margin-bottom: 5px;
- 
+
 }
 
 .menu-section p {
@@ -904,14 +986,14 @@ address {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
-  
+
 }
 
 .pizza-card {
   width: 350px;
   border-radius: 10px;
   padding-bottom: 15px;
-  
+
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -923,23 +1005,26 @@ address {
   width: 100%;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
- 
+
 }
-.pizza-card h3{
-    display: flex;
-   
+
+.pizza-card h3 {
+  display: flex;
+
 }
-.imgcontent{
-    width: 330px;
-    height: 80px;
-    
-    padding: 0px 10px 0px 10px;
+
+.imgcontent {
+  width: 330px;
+  height: 80px;
+
+  padding: 0px 10px 0px 10px;
 }
-.vegsignlogo{
-    height: 13px;
-    max-width: 14px;
-    margin: 2px 5px 0px 0px ;
-    
+
+.vegsignlogo {
+  height: 13px;
+  max-width: 14px;
+  margin: 2px 5px 0px 0px;
+
 }
 
 .pizza-card h3 {
@@ -958,7 +1043,7 @@ address {
   justify-content: space-between;
   align-items: center;
   padding: 0px 15px 0px 15px;
-  
+
 }
 
 .price {
@@ -987,9 +1072,7 @@ address {
   background-color: #f0f0f0;
 }
 
- /* Billing Cart */
-
- 
+/* Billing Cart */
 
 .cart-container {
   max-width: 350px;
@@ -1131,16 +1214,17 @@ address {
   font-weight: bold;
 }
 
-/* ************** Offer ********************
-.MainSection{
-  width: 1520px ;
+/*********** Offer page css ************/
+.MainSection {
+  width: 1520px;
   margin: 150px 0px 50px 0px;
-  
+
 }
-.container{
+
+.offer-container-page {
   width: 1200px;
-  margin-left: 150px;
- 
+  margin-left: 180px;
+
 }
 
 .tabs {
@@ -1158,63 +1242,60 @@ address {
   font-weight: 500;
 }
 
-.tab.active {
-  background-color: black;
-  color: white;
-}
-
 .heading {
   font-size: 18px;
   margin-bottom: 30px;
   margin-top: 50px;
 }
 
-.offers {
+.offers-page-container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
 
-.offer-card {
+.offer-page-card {
   display: flex;
   background-color: white;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
   border-radius: 10px;
-  width: 420px;
+  width: 350px;
+  margin: 10px;
   align-items: center;
   transition: 0.3s;
 }
 
-.offer-card:hover {
+.offer-page-card:hover {
   transform: translateY(-3px);
 }
 
-.offer-image {
+.offer-image-page {
   width: 60px;
   height: auto;
   margin-right: 20px;
 }
 
-.offer-details h3 {
+.offer-details-page h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.offer-details p {
+.offer-details-page p {
   color: #555;
   margin: 5px 0;
+  font-size: 14px;
 }
 
 .coupon {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #e9f6f1;
-  padding: 5px 10px;
+  padding: 2px 12px;
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #008060;
 }
 
@@ -1224,22 +1305,22 @@ address {
   cursor: pointer;
   font-size: 18px;
 }
-/* ********************************** */
 
-/* .flat-off-container {
+/* ********************************** */
+.flat-off-container {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .flat-off-card {
-  width: 200px;
+  width: 180px;
   padding: 16px;
   border: 1px solid #e2c8aa;
   border-radius: 10px;
   background: #fdf6ee;
   position: relative;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
   transition: transform 0.2s;
 }
 
@@ -1253,7 +1334,7 @@ address {
 }
 
 .user-type {
-  font-size: 13px;
+  font-size: 10px;
   color: #7a6d5f;
   margin: 0 0 8px;
 }
@@ -1267,18 +1348,14 @@ address {
 }
 
 .code-box {
-  font-size: 13px;
+  width: 148px;
+  font-size: 12px;
   border: 1px dashed #d2a86b;
-  padding: 6px 10px;
+  padding: 4px 5px;
   text-align: center;
   color: #d2a86b;
   background-color: #fff8f0;
   border-radius: 4px;
-}
-/* ********************************** */
-/* .payment-section h2 {
-  font-size: 22px;
-  margin-bottom: 4px;
 }
 
 .subtext {
@@ -1299,8 +1376,8 @@ address {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
-  width: 400px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
   transition: transform 0.3s;
   position: relative;
 }
@@ -1319,12 +1396,14 @@ address {
 }
 
 .partner-details h3 {
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 8px;
   font-size: 16px;
 }
 
 .partner-details p {
-  margin: 4px 0;
+  margin-top: 5px;
+  margin-bottom: 8px;
   color: #444;
   font-size: 14px;
 }
@@ -1341,117 +1420,267 @@ address {
   color: #777;
 }
 
-/* ************* Bulk Order ****************** */
-/* .bulk-wrapper {
+/***********bulk order*****************/
+.bulk-wrapper {
   width: 100%;
   max-width: 1520px;
-  margin: 70px auto;
+  margin: 60px auto;
 }
 
 
 .bluk-banner {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  position: relative;
 }
 
 .bluk-banner img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: cover;
-    
-} */
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  /* optional: keeps aspect ratio */
 
-/* .form-container {
-    max-width: 100%;
-    max-width: 450px;
-    background-color: #fff;
-    padding: 0.5rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    position: absolute;
-    top: 20%;
-    left: 60%;
 }
 
-h2 {
-    font-size: 20px;
-    margin-bottom: 0.5rem;
+.bluk-form-container {
+  max-width: 100%;
+  max-width: 450px;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 15%;
+  left: 60%;
 }
 
-.sub-text {
-    font-size: 0.95rem;
-    color: #555;
-    margin-bottom: 1.5rem;
+.bluk-form-container h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  padding: 0px 15px;
 }
 
-label {
-    display: block;
-    margin: 1rem 0 0.4rem;
-    font-weight: 500;
+.bulk-sub-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 1.5rem;
+  padding: 0px 15px;
 }
 
-input[type="text"],
-input[type="tel"],
-input[type="email"] {
-    width: 90%;
-    padding: 0.6rem;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 1rem;
+.bulk-form {
+  padding: 0px 15px;
+}
+
+.bulk-label {
+  display: block;
+  margin: 1rem 0 0.4rem;
+  font-size: 14px;
+  color: #444b50;
+}
+
+.input-field {
+  width: 90%;
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
 }
 
 .radio-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
 }
 
 .radio-group label {
-    font-weight: 400;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 14px;
+  color: #444b50;
 }
 
-button {
-    width: 100%;
-    padding: 0.9rem;
-    margin-top: 1.5rem;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 6px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s;
-} */ 
+.bulk-btn {
+  width: 100%;
+  padding: 0.9rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
 
-/* button:hover {
-    background-color: #333;
-}  */
+.bulk-btn:hover {
+  background-color: #333;
+}
 
 /* Responsive */
-/* @media (max-width: 500px) {
-    .form-container {
-        padding: 1rem;
-    }
+@media (max-width: 500px) {
+  .bluk-form-container {
+    padding: 1rem;
+  }
 
-    .form-container {
-        display: flex;
-        flex-direction: column;
-        position: static;
-    }
+  .bluk-form-container {
+    display: flex;
+    flex-direction: column;
+    position: static;
+  }
 
-    h2 {
-        font-size: 1.2rem;
-    }
+  .bluk-form-container h2 {
+    font-size: 1.2rem;
+  }
 
-    .sub-text {
-        font-size: 0.85rem;
-    }
-} */
+  .bulk-sub-text {
+    font-size: 0.85rem;
+  }
+}
+
+/***********Sign up*****************/
+.signup-login-body {
+  background-color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.signup-container h2 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.signup-subtext {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.signup-login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.login-text {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.login-text a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #000;
+}
+
+/**************Login page css********************/
+
+.login-body-container {
+  background-color: #f8f8f8;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.login-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.login-subtext {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+}
+
+.forgot {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.forgot a {
+  font-size: 13px;
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-register-text {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-register-text a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+}

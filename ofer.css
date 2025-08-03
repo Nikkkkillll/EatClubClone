@@ -10,9 +10,9 @@ body {
   margin: 150px 0px 50px 0px;
   
 }
-.container{
+.offer-container{
   width: 1200px;
-  margin-left: 150px;
+  margin-left: 180px;
  
 }
 
@@ -31,11 +31,6 @@ body {
   font-weight: 500;
 }
 
-.tab.active {
-  background-color: black;
-  color: white;
-}
-
 .heading {
   font-size: 18px;
   margin-bottom: 30px;
@@ -52,9 +47,10 @@ body {
   display: flex;
   background-color: white;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-  padding: 20px;
+  padding:15px;
   border-radius: 10px;
-  width: 420px;
+  width: 350px;
+  margin: 10px;
   align-items: center;
   transition: 0.3s;
 }
@@ -71,23 +67,24 @@ body {
 
 .offer-details h3 {
   margin: 0;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .offer-details p {
   color: #555;
   margin: 5px 0;
+  font-size: 14px;
 }
 
 .coupon {
-  margin-top: 10px;
+  margin-top: 5px;
   background-color: #e9f6f1;
-  padding: 5px 10px;
+  padding: 2px 12px;
   border-radius: 5px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #008060;
 }
 
@@ -98,9 +95,6 @@ body {
   font-size: 18px;
 }
 /* ********************************** */
-
-
-
 .flat-off-container {
   display: flex;
   gap: 20px;
@@ -108,7 +102,7 @@ body {
 }
 
 .flat-off-card {
-  width: 200px;
+  width: 160px;
   padding: 16px;
   border: 1px solid #e2c8aa;
   border-radius: 10px;
@@ -128,7 +122,7 @@ body {
 }
 
 .user-type {
-  font-size: 13px;
+  font-size: 10px;
   color: #7a6d5f;
   margin: 0 0 8px;
 }
@@ -142,18 +136,14 @@ body {
 }
 
 .code-box {
-  font-size: 13px;
+  width: 148px;
+  font-size: 12px;
   border: 1px dashed #d2a86b;
-  padding: 6px 10px;
+  padding: 4px 5px;
   text-align: center;
   color: #d2a86b;
   background-color: #fff8f0;
   border-radius: 4px;
-}
-/* ********************************** */
-.payment-section h2 {
-  font-size: 22px;
-  margin-bottom: 4px;
 }
 
 .subtext {
@@ -174,8 +164,8 @@ body {
   background: #fff;
   border-radius: 12px;
   padding: 20px;
-  width: 400px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  width: 320px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.10);
   transition: transform 0.3s;
   position: relative;
 }
@@ -194,12 +184,14 @@ body {
 }
 
 .partner-details h3 {
-  margin: 0;
+  margin-top: 5px;
+  margin-bottom:8px ;
   font-size: 16px;
 }
 
 .partner-details p {
-  margin: 4px 0;
+    margin-top: 5px;
+  margin-bottom:8px ;
   color: #444;
   font-size: 14px;
 }

@@ -1,37 +1,28 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-function SignUp(){
-    return(
+function SignUp() {
+    return (
         <div>
-            <div class="container">
-    <h2>Create an account</h2>
-    <p class="subtext">Sign up with your valid email and password.</p>
-    <form>
-      <input type="text" placeholder="Username" required />
-      <input type="email" placeholder="Email" required />
-      <div class="password-wrapper">
-        <input type="password" placeholder="Password" required />
-        <span class="eye-icon">👁️</span>
-      </div>
-      <div class="password-wrapper">
-        <input type="password" placeholder="Confirm Password" required />
-        <span class="eye-icon">👁️</span>
-      </div>
-      <button type="submit" class="btn">Sign Up</button>
-    </form>
+            <div class="signup-login-body">
+                <div class="signup-container">
+                    <h2>Create an account</h2>
+                    <p class="signup-subtext">Sign up with your valid email and password.</p>
+                    <form class="signup-login-form">
+                        <input type="text" placeholder="Username" required />
+                        <input type="email" placeholder="Email" required />
+                        <div class="password-wrapper">
+                            <input type="password" placeholder="Password" required />
+                        </div>
+                        <div class="password-wrapper">
+                            <input type="password" placeholder="Confirm Password" required />
+                        </div>
+                        <button type="submit" class="signup-btn">Sign Up</button>
+                    </form>
 
-    <div class="divider">
-      <span>or sign up with</span>
-    </div>
-
-    <div class="social-buttons">
-      <button class="google-btn">🔵 Sign up with Google</button>
-      <button class="facebook-btn">🔷 Sign up with Facebook</button>
-    </div>
-
-    <p class="login-text">Already have an account? <a href="#">Login</a></p>
-  </div>
-
+                    <p class="login-text">Already have an account? <Link to="/signin">Login</Link></p>
+                </div>
+            </div>
         </div>
     )
 }

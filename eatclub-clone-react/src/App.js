@@ -13,12 +13,14 @@ import Privacy from './components/Privacy';
 import Disclaimer from './components/Disclaimer';
 import ScrollToTop from './components/ScrollToTop'
 import Cart from './components/Cart'
-import ValueFunList from './components/ValueFunList';
 import Offer from './components/Offer';
 import BulkOrder from './components/BulkOrder';
-import Store9List from './components/Store9List';
-import WhatNewList from './components/WhatNewList';
-import ProteinMealsList from './components/ProteinMealsList';
+import ValueFun99 from './components/ValueFun99';
+import Store9 from './components/Store9';
+import WhatNew from './components/WhatNew';
+import ProteinMeals from './components/ProteinMeals';
+import Login from './components/Login'
+import SignUp from './components/SignUp'
 
 function App() {
   return (
@@ -40,10 +42,13 @@ function App() {
           <Route path='/cart' element ={<Cart/>}/>
           <Route path='/offer' element ={<Offer/>}/>
           <Route path='/bulkorder' element ={<BulkOrder/>}/>
-          <Route path='/value99' element ={<ValueFunList/>}/>
-          <Route path='/store99' element ={<Store9List/>}/>
-          <Route path='/whatnew' element ={<WhatNewList/>}/>
-          <Route path='/ProteinMeals' element ={<ProteinMealsList/>}/>
+          <Route path='/value99' element ={<ValueFun99/>}/>
+          <Route path='/store99' element ={<Store9/>}/>
+          <Route path='/whatnew' element ={<WhatNew/>}/>
+          <Route path='/ProteinMeals' element ={<ProteinMeals/>}/>
+          <Route path='/signin' element ={<Login/>}/>
+          <Route path='/signup' element ={<SignUp/>}/>
+
 
           <Route path="*" element={<h2>404 - Page Not Found</h2>} />
         </Routes>

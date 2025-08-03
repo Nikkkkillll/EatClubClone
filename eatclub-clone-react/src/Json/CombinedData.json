@@ -1,0 +1,501 @@
+{
+    "ValueFun99": [
+        {
+            "id": 1,
+            "name": "Spicy Jalapeno Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Tangy, Spicy Jalapenos with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/8074",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 2,
+            "name": "Golden Corn Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Golden Corn with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7753",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 3,
+            "name": "Capsicum Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Roasted Capsicum with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7752",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 4,
+            "name": "Onion Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Onions with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7750",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 5,
+            "name": "Tomato Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Juicy Tomatoes with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/7751",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 6,
+            "name": "Chicken & Onion Pizza [Regular 7]",
+            "altname": "Spicy Jalapeno Pizza ",
+            "offerprice": 99,
+            "price": 199,
+            "type": "Veg",
+            "description": "Herb Chicken, Onion with Mozzarella & Molten Cheese. 100% Dairy Cheese | 0% Mayonnaise",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/9316",
+            "img1": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        }
+    ],
+    "Store99": [
+        {
+            "id": 1,
+            "name": "Chole Rice Bowl",
+            "altname": "Chole Rice Bowl",
+            "offerprice": 99,
+            "price": 169,
+            "type": "Veg",
+            "description": "[Serves 1] Comes in a bowl with Rice + Chatpate chole cooked in a thick tomato, herb & spice base. Truly delicious!",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11993",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 2,
+            "name": "Kadhi Pakoda Rice Bowl",
+            "altname": "Kadhi Pakoda Rice Bowl",
+            "offerprice": 99,
+            "price": 159,
+            "type": "Veg",
+            "description": "[Serves 1] Comes in a bowl with Rice + Tangy & creamy authentic Kadhi Pakoda flavoured with masalas. Savour the epic taste!",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11991",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 3,
+            "name": "Veggie Delight Sub-Sandwich",
+            "altname": "Veggie Delight Sub-Sandwich",
+            "offerprice": 99,
+            "price": 129,
+            "type": "Veg",
+            "description": "Bell Peppers | Olives + Jalapenos | Mint Chutney | Garlic Cream Sauce | Capsicum + Onion + Tomato | Multi-Grain Bread",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12012",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 4,
+            "name": "Tandoori Chicken Mini Roll",
+            "altname": "Chole Rice Bowl",
+            "offerprice": 99,
+            "price": 139,
+            "type": "Non Veg",
+            "description": "[Small 7, 100% Whole Wheat Base] Fire-grilled chicken with dollops of mayo, peri-peri mix, green chutney & crunchy veggies in a mini roll",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11989",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg"
+        },
+        {
+            "id": 5,
+            "name": "Dal Makhani - Light Meal",
+            "altname": "Dal Makhani - Light Meal",
+            "offerprice": 119,
+            "price": 149,
+            "type": "Veg",
+            "description": "Creamy & slow-cooked Dal Makhani + Phulkas/Parathas/Rice.",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11982",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        },
+        {
+            "id": 6,
+            "name": "Dum Aloo Biryani",
+            "altname": "Dum Aloo Biryani",
+            "offerprice": 99,
+            "price": 179,
+            "type": "Veg",
+            "description": "[Half KG, Serves 1, Raita not included] Mughal style biryani with flavour-packed aloo & long grain rice. Feast at an unbelievable price!",
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11993",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg"
+        }
+    ],
+    "Whatsnew": [
+        {
+            "id": 1,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11537",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Mini Samosas",
+            "type": "Veg",
+            "description": "Comes with Mint Chutney & Imli Chutney. Pack of 3/6 crispy, mini sized samosas with savory aloo masala filling. Most popular desi snack!",
+            "price": 69,
+            "discounted_price": 48
+        },
+        {
+            "id": 2,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11535",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Amritsari Lassi [200 ml]",
+            "type": "Veg",
+            "description": "Fresh Lassi with rich dry fruits, pure kesar & elaichi. An Amritsari delight. Zero added flavours/preservatives.",
+            "price": 79,
+            "discounted_price": 55
+        },
+        {
+            "id": 3,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11539",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Pav Bhaji",
+            "type": "Veg",
+            "description": "Bombay-style bhaji made with fresh vegetables and flavorful spices + 2 Pavs [4 Pc] + Onions",
+            "price": 199,
+            "discounted_price": 139
+        },
+        {
+            "id": 4,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11536",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Mysore Curd-Rice Meal",
+            "type": "Veg",
+            "description": "Tadka curd-rice topped with roasted cashews & pomegranate + Papad + Pickle + Onions",
+            "price": 149,
+            "discounted_price": 104
+        },
+        {
+            "id": 5,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11540",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Ghee Moong Dal Khichdi",
+            "type": "Veg",
+            "description": "[Meal for 1, Made in 100% Ghee] Served with Papad, Pickle & Onions. Goodness of moong dal, rice, traditional Indian spices - a perfect light meal.",
+            "price": 199,
+            "discounted_price": 139
+        },
+        {
+            "id": 6,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11541",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Multigrain Millet Khichdi",
+            "type": "Veg",
+            "description": "[Meal for 1, Made in 100% Ghee, No Rice] Served with Papad, Pickle & Onions. Khichdi made with jowar, bajra, chilka moong dal & tadka of ghee & masalas.",
+            "price": 199,
+            "discounted_price": 139
+        },
+        {
+            "id": 7,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11542",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Signature Mixed Pink Pasta",
+            "type": "Veg",
+            "description": "[Comes with 2 Garlic Breads, Serves 1] Mixed Pink Sauce | No Added Veggies | Penne Pasta",
+            "price": 249,
+            "discounted_price": 174
+        },
+        {
+            "id": 8,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11531",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Paneer Tikka Protein Bowl [55g Protein]",
+            "type": "Veg",
+            "description": "Paneer Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix. 1141 Kcal | Protein: 55g | Carbs: 53g | Fat: 78g | Fiber: 9 g",
+            "price": 299,
+            "discounted_price": 209
+        },
+        {
+            "id": 9,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11533",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Grilled Chicken Power Sandwich",
+            "type": "Non-Veg",
+            "description": "Grilled Chicken | Thick Yogurt Spread | Green Chutney | Capsicum + Tomato + Onion | Multi-Grain Bread 606 Kcal | Protein: 31g | Carbs: 66g | Fat: 24g | Fiber: 7g",
+            "price": 199,
+            "discounted_price": 139
+        },
+        {
+            "id": 10,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11534",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Cheesy Chicken Alfredo Pasta",
+            "type": "Non-Veg",
+            "description": "[Comes with 2 Garlic Breads, Serves 1] Herb Garlic Grilled Chicken | Creamy White Sauce | Penne Pasta",
+            "price": 299,
+            "discounted_price": 209
+        },
+        {
+            "id": 11,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11532",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Herb Chicken Protein Bowl [74g Protein]",
+            "type": "Non-Veg",
+            "description": "Herb Grilled Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix 918 Kcal | Protein: 74g | Carbs: 48g | Fat: 48g | Fiber: 9g",
+            "price": 299,
+            "discounted_price": 209
+        },
+        {
+            "id": 12,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11530",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Greek Blueberry Cheesecake Ice Cream",
+            "type": "Veg",
+            "description": "Inspired by the desserts at the local Greek patisseries. This indulgent ice cream is made of tarty blueberries smothered in fine cheesecake. Silky smooth & super creamy!",
+            "price": 99,
+            "discounted_price": 69
+        },
+        {
+            "id": 13,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/11538",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Mom-Style Aloo Matar Meal",
+            "type": "Veg",
+            "description": "Aloo in a flavourful masala curry + Yellow Dal/Kadhi Pakoda + Phulkas/Parathas/Rice.",
+            "price": 219,
+            "discounted_price": 153
+        }
+    ],
+    "ProteinMeal": [
+        {
+            "id": 1,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5018",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Paneer Tikka Whole Bowl [55g Protein]",
+            "type": "Veg",
+            "description": "Paneer Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "nutrition": "1141 Kcal | Protein: 55g | Carbs: 53g | Fat: 78g | Fiber: 9g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 2,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12207",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Pesto & Paneer Supreme Bowl [55g - High Protein]",
+            "type": "Veg",
+            "description": "Grilled Paneer 200g | Dressing: Pesto | Barley | Lettuce, Kale & Red Cabbage | Bell Peppers, Olive, Jalapeno, Cucumber | Super Seed Mix. [High Protein, Grilled, Fiber Rich]",
+            "nutrition": "1411 Kcal | Protein: 55g | Carbs: 54g | Fat: 109g | Fiber: 12g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 3,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5019",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250721102651/veg.d530555baa33bbcb.svg",
+            "title": "Paneer Peri Peri Power Bowl [55g Protein]",
+            "type": "Veg",
+            "description": "Peri Peri Paneer 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "nutrition": "1231 Kcal | Protein: 55g | Carbs: 54g | Fat: 88g | Fiber: 10g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 4,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5022",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Herb Chicken Mighty Bowl [74g Protein]",
+            "type": "Non-Veg",
+            "description": "Herb Grilled Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "nutrition": "918 Kcal | Protein: 74g | Carbs: 48g | Fat: 48g | Fiber: 9g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 5,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/12209",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Pesto & Chicken Dominator Bowl [74g - High Protein]",
+            "type": "Non-Veg",
+            "description": "Herb Rub Chicken 200g | Dressing: Pesto | Barley | Lettuce, Kale & Red Cabbage | Bell Peppers, Olive, Jalapeno, Cucumber | Super Seed Mix. [High Protein, Grilled, Fiber Rich]",
+            "nutrition": "1212 Kcal | Protein: 74g | Carbs: 51g | Fat: 80g | Fiber: 12g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 6,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5020",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Chicken Tikka Super Bowl [74g Protein]",
+            "type": "Non-Veg",
+            "description": "Chicken Tikka 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "nutrition": "942 Kcal | Protein: 74g | Carbs: 50g | Fat: 49g | Fiber: 10g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 7,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5023",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "BBQ Chicken Beast Bowl [74g Protein]",
+            "type": "Non-Veg",
+            "description": "BBQ Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "nutrition": "962 Kcal | Protein: 74g | Carbs: 56g | Fat: 49g | Fiber: 10g",
+            "original_price": 299,
+            "discount_price": 209
+        },
+        {
+            "id": 8,
+            "img": "https://assets.box8.co.in/rectangle-19x10/xhdpi/product/5021",
+            "indiimg": "https://d203x0tuwp1vfo.cloudfront.net/20250723102416/non-veg.cbe7d8cedeb7858f.svg",
+            "title": "Chicken Peri Peri Boss Bowl [74g Protein]",
+            "description": "Peri Peri Chicken 200 gms, Lettuce, Kale & Red Cabbage, Barley, Bell Peppers, Cucumber, Jalapeno, Olive, Garlic Yogurt dressing topped with Super Seed mix.",
+            "type": "Non-Veg",
+            "nutrition": "1033 Kcal | Protein: 74g | Carbs: 51g | Fat: 59g | Fiber: 10g",
+            "original_price": 299,
+            "discount_price": 209
+        }
+    ],
+    "banner": [
+        {
+            "banner": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2516"
+        }
+    ],
+    "offers": [
+        {
+            "link": "/value99",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2396"
+        },
+        {
+            "link": "/store99",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2390"
+        },
+        {
+            "link": "/whatnew",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2483"
+        },
+        {
+            "link": "/ProteinMeals",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2397"
+        },
+        {
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2400"
+        },
+        {
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2401"
+        }
+    ],
+    "categories": [
+        {
+            "name": "Pizza",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2504"
+        },
+        {
+            "name": "Briyani",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2503"
+        },
+        {
+            "name": "Daily Meal",
+            "image": "https://assets.box8.co.in/horizontal-rectangle/web/banner/2506"
+        }
+    ],
+    "restaurants": [
+        {
+            "name": "LeanCrust Pizza",
+            "tagline": "The Thin Crust Experts",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/20_disabled",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "BOX8 - Desi Meals",
+            "tagline": "India’s Largest Desi Meals Brand",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/1",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Daily Kitchen- Homely Meals",
+            "tagline": "Mom-Style Homely Meals That You Can Have Daily",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/31",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "The Ghee Khichdi Project",
+            "tagline": "Comforting, Wholesome & Made with 100% Pure Ghee",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/37",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "MOJO Pizza- 2X Toppings",
+            "tagline": "India’s Highest Rated Pizza Delivery Chain",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/13",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Itminaan Matka Biryani",
+            "tagline": "Slow Cooked & Served in an Earthen Matka",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/14",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "ZAZA Mughal Biryani",
+            "tagline": "India's Most Flavourful Biryani",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/22",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "BOX8 - Desi Meals",
+            "tagline": "India’s Largest Desi Meals Brand",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/1",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "NH1 Bowls",
+            "tagline": "Highway to North! Real North-Indian Taste.",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/16",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Bhatti Chicken",
+            "tagline": "Grilled in a Bhatti, Not Fried",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/24",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Mealful Rolls",
+            "tagline": "India's Biggest Rolls",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/15",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "BOOM Sandwich",
+            "tagline": "Sub Style Sandwiches, Freshly Made",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/26",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Hola Pasta",
+            "tagline": "Fresh Gourmet Pasta.",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/27",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "Globo Ice Creams",
+            "tagline": "Ice Creams of the World. Taste That Teleports You.",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/21",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "WeFit - Protein Meals",
+            "tagline": "Upto 74 gm Protein in Bowls, Salads & Sandwiches",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/25",
+            "offer": "30% Off + ZERO Extra Fees"
+        },
+        {
+            "name": "WhatsNew",
+            "tagline": "All the new & exciting dishes you must try!",
+            "image": "https://assets.box8.co.in/rectangle-19x10/web/brand/38",
+            "offer": "30% Off + ZERO Extra Fees"
+        }
+    ]
+}

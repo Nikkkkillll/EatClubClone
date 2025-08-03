@@ -29,7 +29,7 @@ export default function Navbar() {
                         </div>
                         <a href="#" className="nav-link"><i className="fa-solid fa-cart-shopping"></i>Cart</a>
                         <a href="#" className="btn-outline">Get the app</a>
-                        <a href="#" className="btn"><span>Sign in</span></a>
+                        <Link to="/signin" className="btn"><span>Sign in</span></Link>
                     </div>
                 </nav>
             </header>
