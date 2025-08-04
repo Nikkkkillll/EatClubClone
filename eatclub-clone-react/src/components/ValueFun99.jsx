@@ -134,7 +134,7 @@ function ValueFun99() {
         {filtered.length > 0 ? (
           filtered.map((pizza) => (
             <div key={pizza.id} className="pizza-card">
-              <Link to="/cart">
+              <Link to={`/cart/${pizza.id}`}>
                 <img src={pizza.img} alt={pizza.altname} />
               </Link>
               <div className="imgcontent">
@@ -148,7 +148,7 @@ function ValueFun99() {
                 <span className="price">
                   ₹{pizza.offerprice} <del>₹{pizza.price}</del>
                 </span>
-                <Link to="/cart">
+                <Link to={`/cart/${pizza.id}`}>
                   <button className="add-btn">ADD +</button>
                 </Link>
               </div>
