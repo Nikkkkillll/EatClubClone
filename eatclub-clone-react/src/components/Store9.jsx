@@ -142,7 +142,7 @@ function Store9() {
         {filtered.length > 0 ? (
           filtered.map((value) => (
             <div key={value.id} className="pizza-card">
-              <Link to="/cart">
+              <Link to={`/cart/${value.id}`}>
                 <img src={value.img} alt={value.altname} />
               </Link>
               <div className="imgcontent">
@@ -160,7 +160,7 @@ function Store9() {
                 <span className="price">
                   ₹{value.offerprice} <del>₹{value.price}</del>
                 </span>
-                <Link to="/cart">
+                <Link to={`/cart/${value.id}`}>
                   <button className="add-btn">ADD +</button>
                 </Link>
               </div>
