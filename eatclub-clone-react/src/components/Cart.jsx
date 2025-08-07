@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-
+//Changes has to be made
 export default function Cart() {
   const { id } = useParams(); // Get pizza ID from URL
   const [pizza, setPizza] = useState(null);
